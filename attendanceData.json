@@ -1,0 +1,3810 @@
+var attendanceData = {
+    "VANCOUVER": {
+        "coords": [
+            49.26684,
+            -123.130625
+        ],
+        "percentage": 8.9
+    },
+    "ABBOTSFORD": {
+        "coords": [
+            49.051964,
+            -122.337591
+        ],
+        "percentage": 3.7
+    },
+    "BURNABY": {
+        "coords": [
+            49.214769,
+            -122.950677
+        ],
+        "percentage": 4.9
+    },
+    "CHILLIWACK": {
+        "coords": [
+            49.109558,
+            -121.967452
+        ],
+        "percentage": 3.17
+    },
+    "COQUITLAM": {
+        "coords": [
+            49.23406,
+            -122.838079
+        ],
+        "percentage": 4.37
+    },
+    "CULTUS LAKE": {
+        "coords": [
+            49.0742548,
+            -121.9834896
+        ],
+        "percentage": 0.05
+    },
+    "GRAND FORKS": {
+        "coords": [
+            49.10621,
+            -118.465857
+        ],
+        "percentage": 0.13
+    },
+    "KELOWNA": {
+        "coords": [
+            49.84061,
+            -119.375666
+        ],
+        "percentage": 1.55
+    },
+    "LANGLEY": {
+        "coords": [
+            49.0924754,
+            -122.649496
+        ],
+        "percentage": 8.91
+    },
+    "MASSET": {
+        "coords": [
+            53.846935,
+            -132.630238
+        ],
+        "percentage": 0.05
+    },
+    "NEW WESTMINSTER": {
+        "coords": [
+            49.213671,
+            -122.898493
+        ],
+        "percentage": 2.95
+    },
+    "PITT MEADOWS": {
+        "coords": [
+            49.2289037,
+            -122.6920659
+        ],
+        "percentage": 1.14
+    },
+    "SURREY": {
+        "coords": [
+            49.103307,
+            -122.717496
+        ],
+        "percentage": 16.59
+    },
+    "108 MILE RANCH": {
+        "coords": [
+            51.724353,
+            -121.359691
+        ],
+        "percentage": 0.1
+    },
+    "AGASSIZ": {
+        "coords": [
+            49.263553,
+            -121.720197
+        ],
+        "percentage": 0.25
+    },
+    "ALDERGROVE": {
+        "coords": [
+            49.0555292,
+            -122.4819747
+        ],
+        "percentage": 0.99
+    },
+    "ASHCROFT": {
+        "coords": [
+            50.737198,
+            -121.271279
+        ],
+        "percentage": 0.11
+    },
+    "BRACKENDALE": {
+        "coords": [
+            49.76698,
+            -123.140431
+        ],
+        "percentage": 0.1
+    },
+    "CAMPBELL RIVER": {
+        "coords": [
+            49.951116,
+            -125.201889
+        ],
+        "percentage": 0.57
+    },
+    "CHARLIE LAKE": {
+        "coords": [
+            56.2725,
+            -120.945
+        ],
+        "percentage": 0.06
+    },
+    "D'ARCY": {
+        "coords": [
+            50.508659,
+            -122.723049
+        ],
+        "percentage": 0.07
+    },
+    "DELTA": {
+        "coords": [
+            49.006317,
+            -123.079162
+        ],
+        "percentage": 3.11
+    },
+    "EDENWOLD": {
+        "coords": [
+            50.654783,
+            -104.062288
+        ],
+        "percentage": 0.05
+    },
+    "FORT ST. JAMES": {
+        "coords": [
+            54.44195175,
+            -124.2477417
+        ],
+        "percentage": 0.09
+    },
+    "FORT ST. JOHN": {
+        "coords": [
+            56.24589,
+            -120.837058
+        ],
+        "percentage": 0.21
+    },
+    "GOLDEN": {
+        "coords": [
+            51.336188,
+            -117.122118
+        ],
+        "percentage": 0.08
+    },
+    "HAISLA": {
+        "coords": [
+            53.970779,
+            -128.64697
+        ],
+        "percentage": 0.06
+    },
+    "HIXON": {
+        "coords": [
+            53.417284,
+            -122.586289
+        ],
+        "percentage": 0.05
+    },
+    "KAMLOOPS": {
+        "coords": [
+            50.641849,
+            -120.369959
+        ],
+        "percentage": 2.0
+    },
+    "MAPLE RIDGE": {
+        "coords": [
+            49.220507,
+            -122.639526
+        ],
+        "percentage": 3.73
+    },
+    "MISSION": {
+        "coords": [
+            49.147255,
+            -122.318549
+        ],
+        "percentage": 1.11
+    },
+    "NANAIMO": {
+        "coords": [
+            49.114275,
+            -123.929344
+        ],
+        "percentage": 1.32
+    },
+    "NORTH VANCOUVER": {
+        "coords": [
+            49.321288,
+            -122.959775
+        ],
+        "percentage": 3.39
+    },
+    "PORT COQUITLAM": {
+        "coords": [
+            49.26597,
+            -122.750506
+        ],
+        "percentage": 2.42
+    },
+    "PRINCE RUPERT": {
+        "coords": [
+            54.322574,
+            -130.28732
+        ],
+        "percentage": 0.17
+    },
+    "PRINCETON": {
+        "coords": [
+            49.459685,
+            -120.48294
+        ],
+        "percentage": 0.15
+    },
+    "QUEEN CHARLOTTE": {
+        "coords": [
+            53.273583,
+            -131.976598
+        ],
+        "percentage": 0.08
+    },
+    "RICHMOND": {
+        "coords": [
+            49.135441,
+            -123.114225
+        ],
+        "percentage": 2.61
+    },
+    "SAANICHTON": {
+        "coords": [
+            48.594892,
+            -123.393277
+        ],
+        "percentage": 0.12
+    },
+    "SALMON ARM": {
+        "coords": [
+            50.645661,
+            -119.215165
+        ],
+        "percentage": 0.24
+    },
+    "SECHELT": {
+        "coords": [
+            49.474083,
+            -123.754707
+        ],
+        "percentage": 0.45
+    },
+    "Surrey": {
+        "coords": [
+            49.230135,
+            -122.620735
+        ],
+        "percentage": 0.39
+    },
+    "VERNON": {
+        "coords": [
+            50.253727,
+            -119.303973
+        ],
+        "percentage": 0.59
+    },
+    "VICTORIA": {
+        "coords": [
+            48.407864,
+            -123.323579
+        ],
+        "percentage": 1.69
+    },
+    "Victoria": {
+        "coords": [
+            48.4284,
+            -123.3656
+        ],
+        "percentage": 0.1
+    },
+    "WHITE ROCK": {
+        "coords": [
+            49.022097,
+            -122.786032
+        ],
+        "percentage": 0.98
+    },
+    "100 MILE HOUSE": {
+        "coords": [
+            51.640861,
+            -121.297728
+        ],
+        "percentage": 0.1
+    },
+    "100 Mile House": {
+        "coords": [
+            51.581882,
+            -121.153569
+        ],
+        "percentage": 0.0
+    },
+    "BELLA BELLA": {
+        "coords": [
+            52.164316,
+            -128.145204
+        ],
+        "percentage": 0.01
+    },
+    "FORT NELSON": {
+        "coords": [
+            58.844724,
+            -122.616741
+        ],
+        "percentage": 0.04
+    },
+    "GAMBIER ISLAND": {
+        "coords": [
+            49.399669,
+            -123.509074
+        ],
+        "percentage": 0.03
+    },
+    "GENELLE": {
+        "coords": [
+            49.210378,
+            -117.696878
+        ],
+        "percentage": 0.02
+    },
+    "GIBSONS": {
+        "coords": [
+            49.399669,
+            -123.509074
+        ],
+        "percentage": 0.29
+    },
+    "HOPE": {
+        "coords": [
+            49.379874,
+            -121.443003
+        ],
+        "percentage": 0.16
+    },
+    "LILLOOET": {
+        "coords": [
+            50.6864357,
+            -121.9360046
+        ],
+        "percentage": 0.09
+    },
+    "MARSH LAKE": {
+        "coords": [
+            60.514687,
+            -134.111237
+        ],
+        "percentage": 0.0
+    },
+    "PRITCHARD": {
+        "coords": [
+            50.686428,
+            -119.819019
+        ],
+        "percentage": 0.02
+    },
+    "SHAWNIGAN LAKE": {
+        "coords": [
+            48.623638,
+            -123.64206
+        ],
+        "percentage": 0.05
+    },
+    "UCLUELET": {
+        "coords": [
+            48.936581,
+            -125.547316
+        ],
+        "percentage": 0.03
+    },
+    "ATLIN": {
+        "coords": [
+            59.480782,
+            -133.631242
+        ],
+        "percentage": 0.0
+    },
+    "FOREST GROVE": {
+        "coords": [
+            51.852759,
+            -121.342033
+        ],
+        "percentage": 0.01
+    },
+    "LAC LA HACHE": {
+        "coords": [
+            51.842823,
+            -121.558608
+        ],
+        "percentage": 0.05
+    },
+    "108 Mile Ranch": {
+        "coords": [
+            51.724353,
+            -121.359691
+        ],
+        "percentage": 0.0
+    },
+    "BARRIERE": {
+        "coords": [
+            51.18307,
+            -120.122647
+        ],
+        "percentage": 0.05
+    },
+    "BOSTON BAR": {
+        "coords": [
+            49.828541,
+            -121.429795
+        ],
+        "percentage": 0.04
+    },
+    "DUNCAN": {
+        "coords": [
+            48.757386,
+            -123.65215
+        ],
+        "percentage": 0.32
+    },
+    "EDGEWATER": {
+        "coords": [
+            50.703325,
+            -116.140531
+        ],
+        "percentage": 0.01
+    },
+    "LAKE COWICHAN": {
+        "coords": [
+            48.824376,
+            -124.039451
+        ],
+        "percentage": 0.06
+    },
+    "LONE BUTTE": {
+        "coords": [
+            51.551178,
+            -121.17293
+        ],
+        "percentage": 0.05
+    },
+    "MCBRIDE": {
+        "coords": [
+            53.301347,
+            -120.168461
+        ],
+        "percentage": 0.01
+    },
+    "PEMBERTON": {
+        "coords": [
+            50.322195,
+            -122.801551
+        ],
+        "percentage": 0.12
+    },
+    "POUCE COUPE": {
+        "coords": [
+            55.715907,
+            -120.133948
+        ],
+        "percentage": 0.01
+    },
+    "SPENCES BRIDGE": {
+        "coords": [
+            50.428569,
+            -121.332181
+        ],
+        "percentage": 0.03
+    },
+    "150 MILE HOUSE": {
+        "coords": [
+            52.170082,
+            -122.066692
+        ],
+        "percentage": 0.04
+    },
+    "150 Mile House": {
+        "coords": [
+            52.170082,
+            -122.066692
+        ],
+        "percentage": 0.0
+    },
+    "KITWANGA": {
+        "coords": [
+            55.043991,
+            -128.263939
+        ],
+        "percentage": 0.03
+    },
+    "SICAMOUS": {
+        "coords": [
+            50.783543,
+            -119.064368
+        ],
+        "percentage": 0.05
+    },
+    "CRESCENT VALLEY": {
+        "coords": [
+            49.443557,
+            -117.581094
+        ],
+        "percentage": 0.0
+    },
+    "KASLO": {
+        "coords": [
+            49.912083,
+            -116.906316
+        ],
+        "percentage": 0.02
+    },
+    "PORT EDWARD": {
+        "coords": [
+            54.247557,
+            -130.000113
+        ],
+        "percentage": 0.01
+    },
+    "SAVONA": {
+        "coords": [
+            50.759137,
+            -120.814115
+        ],
+        "percentage": 0.03
+    },
+    "UNION BAY": {
+        "coords": [
+            49.580295,
+            -124.903895
+        ],
+        "percentage": 0.01
+    },
+    "70 MILE HOUSE": {
+        "coords": [
+            51.30464935,
+            -121.3932724
+        ],
+        "percentage": 0.02
+    },
+    "KALEDEN": {
+        "coords": [
+            49.382342,
+            -119.595214
+        ],
+        "percentage": 0.04
+    },
+    "OSOYOOS": {
+        "coords": [
+            49.020989,
+            -119.467523
+        ],
+        "percentage": 0.18
+    },
+    "Abbotsford": {
+        "coords": [
+            49.118302,
+            -122.426962
+        ],
+        "percentage": 0.02
+    },
+    "PENTICTON": {
+        "coords": [
+            49.500832,
+            -119.593452
+        ],
+        "percentage": 0.51
+    },
+    "PRINCE GEORGE": {
+        "coords": [
+            54.094109,
+            -122.731515
+        ],
+        "percentage": 0.77
+    },
+    "WEST KELOWNA": {
+        "coords": [
+            49.8553519,
+            -119.6179341
+        ],
+        "percentage": 0.45
+    },
+    "BEAVERDELL": {
+        "coords": [
+            49.432427,
+            -119.08963
+        ],
+        "percentage": 0.01
+    },
+    "HARRISON HOT SPRINGS": {
+        "coords": [
+            49.24163818,
+            -121.7907104
+        ],
+        "percentage": 0.12
+    },
+    "VALEMOUNT": {
+        "coords": [
+            52.83122,
+            -119.264311
+        ],
+        "percentage": 0.04
+    },
+    "AHOUSAT": {
+        "coords": [
+            49.281778,
+            -126.062678
+        ],
+        "percentage": 0.0
+    },
+    "AIRDRIE": {
+        "coords": [
+            51.283895,
+            -114.008024
+        ],
+        "percentage": 0.0
+    },
+    "Aldergrove": {
+        "coords": [
+            49.0548165,
+            -122.4754872
+        ],
+        "percentage": 0.04
+    },
+    "LAKE COUNTRY": {
+        "coords": [
+            50.055643,
+            -119.404163
+        ],
+        "percentage": 0.16
+    },
+    "MERRITT": {
+        "coords": [
+            50.108492,
+            -120.784345
+        ],
+        "percentage": 0.19
+    },
+    "ALERT BAY": {
+        "coords": [
+            50.589949,
+            -126.95172
+        ],
+        "percentage": 0.02
+    },
+    "CLINTON": {
+        "coords": [
+            51.091994,
+            -121.589479
+        ],
+        "percentage": 0.04
+    },
+    "LOGAN LAKE": {
+        "coords": [
+            50.484955,
+            -120.810224
+        ],
+        "percentage": 0.08
+    },
+    "NEW DENVER": {
+        "coords": [
+            49.742181,
+            -117.466282
+        ],
+        "percentage": 0.01
+    },
+    "OLIVER": {
+        "coords": [
+            49.181073,
+            -119.55144
+        ],
+        "percentage": 0.17
+    },
+    "ALEXIS CREEK": {
+        "coords": [
+            52.401828,
+            -124.022594
+        ],
+        "percentage": 0.01
+    },
+    "TROCHU": {
+        "coords": [
+            51.823714,
+            -113.232851
+        ],
+        "percentage": 0.0
+    },
+    "ALKALI LAKE": {
+        "coords": [
+            51.855665,
+            -122.090359
+        ],
+        "percentage": 0.0
+    },
+    "SORRENTO": {
+        "coords": [
+            50.8826208,
+            -119.4930771
+        ],
+        "percentage": 0.06
+    },
+    "ANAHIM LAKE": {
+        "coords": [
+            52.583675,
+            -125.19208
+        ],
+        "percentage": 0.0
+    },
+    "HORSEFLY": {
+        "coords": [
+            52.416825,
+            -121.242714
+        ],
+        "percentage": 0.01
+    },
+    "VAVENBY": {
+        "coords": [
+            51.581304,
+            -119.715036
+        ],
+        "percentage": 0.0
+    },
+    "ANGLEMONT": {
+        "coords": [
+            50.96945953,
+            -119.1919708
+        ],
+        "percentage": 0.01
+    },
+    "ANMORE": {
+        "coords": [
+            49.312605,
+            -122.85243
+        ],
+        "percentage": 0.08
+    },
+    "PORT MOODY": {
+        "coords": [
+            49.31401,
+            -122.87646
+        ],
+        "percentage": 1.17
+    },
+    "ARMSTRONG": {
+        "coords": [
+            50.431413,
+            -119.344301
+        ],
+        "percentage": 0.08
+    },
+    "BURNS LAKE": {
+        "coords": [
+            54.229522,
+            -125.76144
+        ],
+        "percentage": 0.04
+    },
+    "GOLD RIVER": {
+        "coords": [
+            49.775646,
+            -126.058103
+        ],
+        "percentage": 0.03
+    },
+    "SALT SPRING ISLAND": {
+        "coords": [
+            48.846154,
+            -123.49655
+        ],
+        "percentage": 0.08
+    },
+    "Armstrong": {
+        "coords": [
+            50.470947,
+            -119.251205
+        ],
+        "percentage": 0.01
+    },
+    "ARRAS": {
+        "coords": [
+            55.75802994,
+            -120.4855576
+        ],
+        "percentage": 0.0
+    },
+    "ATHALMER": {
+        "coords": [
+            50.540237,
+            -116.001879
+        ],
+        "percentage": 0.0
+    },
+    "BOWSER": {
+        "coords": [
+            49.416564,
+            -124.678314
+        ],
+        "percentage": 0.04
+    },
+    "CANIM LAKE": {
+        "coords": [
+            51.745946,
+            -121.13212
+        ],
+        "percentage": 0.01
+    },
+    "CRAWFORD BAY": {
+        "coords": [
+            49.682396,
+            -116.826119
+        ],
+        "percentage": 0.01
+    },
+    "KOOTENAY BAY": {
+        "coords": [
+            49.684682,
+            -116.866652
+        ],
+        "percentage": 0.0
+    },
+    "BAKER CREEK": {
+        "coords": [
+            52.970011,
+            -122.67916
+        ],
+        "percentage": 0.0
+    },
+    "BATNUNI LAKE": {
+        "coords": [
+            52.970011,
+            -122.67916
+        ],
+        "percentage": 0.0
+    },
+    "NAZKO": {
+        "coords": [
+            52.970011,
+            -122.67916
+        ],
+        "percentage": 0.0
+    },
+    "QUESNEL": {
+        "coords": [
+            52.970011,
+            -122.67916
+        ],
+        "percentage": 0.24
+    },
+    "BALDONNEL": {
+        "coords": [
+            56.216933,
+            -120.674436
+        ],
+        "percentage": 0.0
+    },
+    "BALFOUR": {
+        "coords": [
+            49.627803,
+            -116.965603
+        ],
+        "percentage": 0.01
+    },
+    "BAMFIELD": {
+        "coords": [
+            48.833365,
+            -125.142607
+        ],
+        "percentage": 0.0
+    },
+    "CRESCENT SPUR": {
+        "coords": [
+            53.707629,
+            -120.57909
+        ],
+        "percentage": 0.01
+    },
+    "MALAKWA": {
+        "coords": [
+            51.008152,
+            -118.702013
+        ],
+        "percentage": 0.0
+    },
+    "BANFF": {
+        "coords": [
+            51.179145,
+            -115.569694
+        ],
+        "percentage": 0.0
+    },
+    "CROFTON": {
+        "coords": [
+            48.865144,
+            -123.64212
+        ],
+        "percentage": 0.03
+    },
+    "DEASE LAKE": {
+        "coords": [
+            58.435931,
+            -130.005246
+        ],
+        "percentage": 0.0
+    },
+    "GARIBALDI HIGHLANDS": {
+        "coords": [
+            49.747509,
+            -123.115243
+        ],
+        "percentage": 0.11
+    },
+    "JAFFRAY": {
+        "coords": [
+            49.375307,
+            -115.30031
+        ],
+        "percentage": 0.01
+    },
+    "MADEIRA PARK": {
+        "coords": [
+            49.61042,
+            -124.054239
+        ],
+        "percentage": 0.07
+    },
+    "NIMPO LAKE": {
+        "coords": [
+            52.125413,
+            -125.396802
+        ],
+        "percentage": 0.01
+    },
+    "SUMMERLAND": {
+        "coords": [
+            49.601665,
+            -119.694556
+        ],
+        "percentage": 0.19
+    },
+    "TOFINO": {
+        "coords": [
+            49.144976,
+            -125.902598
+        ],
+        "percentage": 0.03
+    },
+    "WASA": {
+        "coords": [
+            49.912551,
+            -116.008544
+        ],
+        "percentage": 0.0
+    },
+    "WHALETOWN": {
+        "coords": [
+            50.066615,
+            -125.045554
+        ],
+        "percentage": 0.0
+    },
+    "WINLAW": {
+        "coords": [
+            49.642566,
+            -117.457087
+        ],
+        "percentage": 0.01
+    },
+    "COURTENAY": {
+        "coords": [
+            49.7555408,
+            -124.9554055
+        ],
+        "percentage": 0.39
+    },
+    "BAYNES LAKE": {
+        "coords": [
+            49.22951889,
+            -115.2214432
+        ],
+        "percentage": 0.0
+    },
+    "BEAR LAKE": {
+        "coords": [
+            54.498175,
+            -122.6783
+        ],
+        "percentage": 0.0
+    },
+    "BEASLEY": {
+        "coords": [
+            49.908298,
+            -117.7132712
+        ],
+        "percentage": 0.0
+    },
+    "MONTROSE": {
+        "coords": [
+            49.087362,
+            -117.580248
+        ],
+        "percentage": 0.01
+    },
+    "BELCARRA": {
+        "coords": [
+            49.321834,
+            -122.926162
+        ],
+        "percentage": 0.02
+    },
+    "BELLA COOLA": {
+        "coords": [
+            52.372894,
+            -126.762575
+        ],
+        "percentage": 0.01
+    },
+    "ERRINGTON": {
+        "coords": [
+            49.284842,
+            -124.465007
+        ],
+        "percentage": 0.04
+    },
+    "TELKWA": {
+        "coords": [
+            54.695016,
+            -127.04761
+        ],
+        "percentage": 0.02
+    },
+    "Bellevue": {
+        "coords": [
+            47.6101,
+            -122.2015
+        ],
+        "percentage": 0.0
+    },
+    "Bellingham": {
+        "coords": [
+            48.7544,
+            -122.4786
+        ],
+        "percentage": 0.0
+    },
+    "BIG LAKE RANCH": {
+        "coords": [
+            52.389723,
+            -121.84152
+        ],
+        "percentage": 0.02
+    },
+    "FRASER LAKE": {
+        "coords": [
+            54.075339,
+            -124.611464
+        ],
+        "percentage": 0.03
+    },
+    "GREENWOOD": {
+        "coords": [
+            49.082111,
+            -118.681844
+        ],
+        "percentage": 0.01
+    },
+    "MCLURE": {
+        "coords": [
+            51.009314,
+            -120.223135
+        ],
+        "percentage": 0.01
+    },
+    "PROGRESS": {
+        "coords": [
+            55.756844,
+            -120.523725
+        ],
+        "percentage": 0.01
+    },
+    "WHISTLER": {
+        "coords": [
+            50.131943,
+            -122.958867
+        ],
+        "percentage": 0.18
+    },
+    "CLEARWATER": {
+        "coords": [
+            51.632463,
+            -120.3416791
+        ],
+        "percentage": 0.05
+    },
+    "BLACK CREEK": {
+        "coords": [
+            49.8632257,
+            -125.1213454
+        ],
+        "percentage": 0.02
+    },
+    "BLACKFALDS": {
+        "coords": [
+            51.260629,
+            -113.988515
+        ],
+        "percentage": 0.0
+    },
+    "BLIND BAY": {
+        "coords": [
+            50.874361,
+            -119.373478
+        ],
+        "percentage": 0.08
+    },
+    "BLUE RIVER": {
+        "coords": [
+            52.103742,
+            -119.304186
+        ],
+        "percentage": 0.01
+    },
+    "EAGLE CREEK": {
+        "coords": [
+            51.86314392,
+            -120.8653107
+        ],
+        "percentage": 0.0
+    },
+    "GOODLOW": {
+        "coords": [
+            56.440777,
+            -120.239143
+        ],
+        "percentage": 0.0
+    },
+    "LANTZVILLE": {
+        "coords": [
+            49.25425,
+            -124.107714
+        ],
+        "percentage": 0.09
+    },
+    "MIDWAY": {
+        "coords": [
+            49.056686,
+            -118.997554
+        ],
+        "percentage": 0.01
+    },
+    "BONNINGTON": {
+        "coords": [
+            49.742973,
+            -117.482165
+        ],
+        "percentage": 0.01
+    },
+    "SALMO": {
+        "coords": [
+            49.192908,
+            -117.278312
+        ],
+        "percentage": 0.02
+    },
+    "SLOCAN": {
+        "coords": [
+            49.762742,
+            -117.471172
+        ],
+        "percentage": 0.01
+    },
+    "BOSWELL": {
+        "coords": [
+            49.47765732,
+            -116.7677765
+        ],
+        "percentage": 0.0
+    },
+    "Bowen Island": {
+        "coords": [
+            49.3967607,
+            -123.3420959
+        ],
+        "percentage": 0.0
+    },
+    "BOWEN ISLAND": {
+        "coords": [
+            49.369586,
+            -123.3817564
+        ],
+        "percentage": 0.07
+    },
+    "HARRISON MILLS": {
+        "coords": [
+            49.250148,
+            -121.95539
+        ],
+        "percentage": 0.01
+    },
+    "RADIUM HOT SPRINGS": {
+        "coords": [
+            50.62244797,
+            -116.07164
+        ],
+        "percentage": 0.01
+    },
+    "SQUAMISH": {
+        "coords": [
+            49.744969,
+            -123.143928
+        ],
+        "percentage": 0.18
+    },
+    "BRENTWOOD BAY": {
+        "coords": [
+            48.579157,
+            -123.451384
+        ],
+        "percentage": 0.03
+    },
+    "BRIDGE LAKE": {
+        "coords": [
+            51.481605,
+            -120.729613
+        ],
+        "percentage": 0.01
+    },
+    "HANCEVILLE": {
+        "coords": [
+            51.9418335,
+            -123.0938263
+        ],
+        "percentage": 0.01
+    },
+    "HARTLEY BAY": {
+        "coords": [
+            53.424188,
+            -129.262995
+        ],
+        "percentage": 0.02
+    },
+    "LIKELY": {
+        "coords": [
+            52.61685944,
+            -121.5631409
+        ],
+        "percentage": 0.02
+    },
+    "LOWER POST": {
+        "coords": [
+            59.925183,
+            -128.485842
+        ],
+        "percentage": 0.01
+    },
+    "ZEBALLOS": {
+        "coords": [
+            49.98445,
+            -126.844709
+        ],
+        "percentage": 0.0
+    },
+    "BRITANNIA BEACH": {
+        "coords": [
+            49.710628,
+            -123.155953
+        ],
+        "percentage": 0.01
+    },
+    "Britannia Beach": {
+        "coords": [
+            49.710628,
+            -123.155953
+        ],
+        "percentage": 0.0
+    },
+    "BUFFALO CREEK": {
+        "coords": [
+            51.815952,
+            -121.15598
+        ],
+        "percentage": 0.01
+    },
+    "BURLINGTON": {
+        "coords": [
+            43.380577,
+            -79.80917
+        ],
+        "percentage": 0.0
+    },
+    "Burnaby": {
+        "coords": [
+            49.269115,
+            -122.995939
+        ],
+        "percentage": 0.05
+    },
+    "CASTLEGAR": {
+        "coords": [
+            49.270948,
+            -117.647606
+        ],
+        "percentage": 0.12
+    },
+    "DENNY ISLAND": {
+        "coords": [
+            52.12394,
+            -128.017173
+        ],
+        "percentage": 0.01
+    },
+    "DEROCHE": {
+        "coords": [
+            49.232059,
+            -122.001135
+        ],
+        "percentage": 0.07
+    },
+    "LYTTON": {
+        "coords": [
+            50.218391,
+            -121.5693
+        ],
+        "percentage": 0.05
+    },
+    "COOMBS": {
+        "coords": [
+            49.305922,
+            -124.409154
+        ],
+        "percentage": 0.02
+    },
+    "BURTON": {
+        "coords": [
+            49.982354,
+            -117.879956
+        ],
+        "percentage": 0.0
+    },
+    "ROSE PRAIRIE": {
+        "coords": [
+            56.567017,
+            -120.488675
+        ],
+        "percentage": 0.0
+    },
+    "NAKUSP": {
+        "coords": [
+            50.23839,
+            -117.797387
+        ],
+        "percentage": 0.03
+    },
+    "CACHE CREEK": {
+        "coords": [
+            50.807604,
+            -121.327661
+        ],
+        "percentage": 0.04
+    },
+    "PORT ALICE": {
+        "coords": [
+            50.369652,
+            -127.389732
+        ],
+        "percentage": 0.02
+    },
+    "QUALICUM BEACH": {
+        "coords": [
+            49.347487,
+            -124.441213
+        ],
+        "percentage": 0.26
+    },
+    "CALEDONIA": {
+        "coords": [
+            45.423726,
+            -75.654127
+        ],
+        "percentage": 0.0
+    },
+    "CALGARY": {
+        "coords": [
+            51.0654,
+            -114.021901
+        ],
+        "percentage": 0.02
+    },
+    "KIRKLAND LAKE": {
+        "coords": [
+            48.145444,
+            -80.039009
+        ],
+        "percentage": 0.0
+    },
+    "Campbell River": {
+        "coords": [
+            49.966167,
+            -125.229218
+        ],
+        "percentage": 0.0
+    },
+    "CANAL FLATS": {
+        "coords": [
+            50.154784,
+            -115.808063
+        ],
+        "percentage": 0.0
+    },
+    "PORT CLEMENTS": {
+        "coords": [
+            53.68779,
+            -132.16135
+        ],
+        "percentage": 0.02
+    },
+    "CANOE": {
+        "coords": [
+            50.751776,
+            -119.229979
+        ],
+        "percentage": 0.01
+    },
+    "PORT HARDY": {
+        "coords": [
+            50.721848,
+            -127.506524
+        ],
+        "percentage": 0.04
+    },
+    "CANYON": {
+        "coords": [
+            49.059203,
+            -116.444779
+        ],
+        "percentage": 0.0
+    },
+    "CASSIDY": {
+        "coords": [
+            49.053844,
+            -123.883851
+        ],
+        "percentage": 0.0
+    },
+    "DEWDNEY": {
+        "coords": [
+            49.192394,
+            -122.074045
+        ],
+        "percentage": 0.03
+    },
+    "CAWSTON": {
+        "coords": [
+            49.177882,
+            -119.7656508
+        ],
+        "percentage": 0.01
+    },
+    "CELISTA": {
+        "coords": [
+            50.95232391,
+            -119.3825073
+        ],
+        "percentage": 0.0
+    },
+    "MONTNEY": {
+        "coords": [
+            56.279902,
+            -120.963409
+        ],
+        "percentage": 0.0
+    },
+    "CHASE": {
+        "coords": [
+            50.817359,
+            -119.681286
+        ],
+        "percentage": 0.07
+    },
+    "ENDERBY": {
+        "coords": [
+            50.548754,
+            -119.140069
+        ],
+        "percentage": 0.05
+    },
+    "REVELSTOKE": {
+        "coords": [
+            50.975822,
+            -118.18549
+        ],
+        "percentage": 0.07
+    },
+    "Chemainus": {
+        "coords": [
+            48.91647,
+            -123.71564
+        ],
+        "percentage": 0.0
+    },
+    "AIYANSH": {
+        "coords": [
+            55.204596,
+            -129.082751
+        ],
+        "percentage": 0.0
+    },
+    "CHEMAINUS": {
+        "coords": [
+            48.890448,
+            -123.697906
+        ],
+        "percentage": 0.08
+    },
+    "CHERRYVILLE": {
+        "coords": [
+            50.24963,
+            -118.957961
+        ],
+        "percentage": 0.01
+    },
+    "CHESTERMERE": {
+        "coords": [
+            51.023507,
+            -113.831404
+        ],
+        "percentage": 0.0
+    },
+    "CHETWYND": {
+        "coords": [
+            55.697588,
+            -121.629632
+        ],
+        "percentage": 0.02
+    },
+    "CHILANKO FORKS": {
+        "coords": [
+            52.138647,
+            -123.947121
+        ],
+        "percentage": 0.0
+    },
+    "FALKLAND": {
+        "coords": [
+            50.528772,
+            -119.36575
+        ],
+        "percentage": 0.02
+    },
+    "MOUNT CURRIE": {
+        "coords": [
+            50.312638,
+            -122.720274
+        ],
+        "percentage": 0.03
+    },
+    "Chilliwack": {
+        "coords": [
+            49.17831,
+            -121.956308
+        ],
+        "percentage": 0.06
+    },
+    "LINDELL BEACH": {
+        "coords": [
+            49.033989,
+            -122.0271057
+        ],
+        "percentage": 0.05
+    },
+    "ROSEDALE": {
+        "coords": [
+            49.1899339,
+            -121.7535657
+        ],
+        "percentage": 0.08
+    },
+    "CHRISTINA LAKE": {
+        "coords": [
+            49.01401,
+            -118.105159
+        ],
+        "percentage": 0.02
+    },
+    "GRASMERE": {
+        "coords": [
+            49.090969,
+            -115.074994
+        ],
+        "percentage": 0.0
+    },
+    "MOYIE": {
+        "coords": [
+            49.305089,
+            -115.835784
+        ],
+        "percentage": 0.0
+    },
+    "BASSANO": {
+        "coords": [
+            50.984878,
+            -112.563177
+        ],
+        "percentage": 0.0
+    },
+    "DOME CREEK": {
+        "coords": [
+            53.707628,
+            -120.57909
+        ],
+        "percentage": 0.01
+    },
+    "FORT FRASER": {
+        "coords": [
+            54.018214,
+            -124.321455
+        ],
+        "percentage": 0.01
+    },
+    "GOLD BRIDGE": {
+        "coords": [
+            50.85,
+            -122.833332
+        ],
+        "percentage": 0.01
+    },
+    "HONEYMOON BAY": {
+        "coords": [
+            48.813113,
+            -124.181417
+        ],
+        "percentage": 0.02
+    },
+    "INVERMERE": {
+        "coords": [
+            50.517383,
+            -116.035989
+        ],
+        "percentage": 0.02
+    },
+    "LAKE ERROCK": {
+        "coords": [
+            49.236617,
+            -122.004696
+        ],
+        "percentage": 0.02
+    },
+    "QUATHIASKI COVE": {
+        "coords": [
+            50.091999,
+            -125.231184
+        ],
+        "percentage": 0.01
+    },
+    "STEWART": {
+        "coords": [
+            55.94085,
+            -129.989869
+        ],
+        "percentage": 0.02
+    },
+    "COAL HARBOUR": {
+        "coords": [
+            50.599816,
+            -127.580694
+        ],
+        "percentage": 0.0
+    },
+    "COBBLE HILL": {
+        "coords": [
+            48.680734,
+            -123.563608
+        ],
+        "percentage": 0.05
+    },
+    "Cobble Hill": {
+        "coords": [
+            48.6913866,
+            -123.5410223
+        ],
+        "percentage": 0.01
+    },
+    "SOINTULA": {
+        "coords": [
+            50.635435,
+            -127.006671
+        ],
+        "percentage": 0.01
+    },
+    "WESTHOLME": {
+        "coords": [
+            48.893351,
+            -123.746129
+        ],
+        "percentage": 0.01
+    },
+    "COLDSTREAM": {
+        "coords": [
+            50.215926,
+            -119.220107
+        ],
+        "percentage": 0.11
+    },
+    "COMBER": {
+        "coords": [
+            42.194046,
+            -82.447792
+        ],
+        "percentage": 0.0
+    },
+    "COMOX": {
+        "coords": [
+            49.6917402,
+            -124.8959703
+        ],
+        "percentage": 0.14
+    },
+    "Comox": {
+        "coords": [
+            49.674464,
+            -124.947537
+        ],
+        "percentage": 0.0
+    },
+    "COOKS CREEK": {
+        "coords": [
+            50.018192,
+            -96.773396
+        ],
+        "percentage": 0.0
+    },
+    "Coquitlam": {
+        "coords": [
+            49.243089,
+            -122.86621
+        ],
+        "percentage": 0.02
+    },
+    "PARKSVILLE": {
+        "coords": [
+            49.30519,
+            -124.25832
+        ],
+        "percentage": 0.46
+    },
+    "COUNTY OF GRANDE PRAIRIE NO. 1": {
+        "coords": [
+            55.14525,
+            -118.800805
+        ],
+        "percentage": 0.0
+    },
+    "Courtenay": {
+        "coords": [
+            49.6367554,
+            -124.9293202
+        ],
+        "percentage": 0.0
+    },
+    "COWICHAN BAY": {
+        "coords": [
+            48.737175,
+            -123.621286
+        ],
+        "percentage": 0.03
+    },
+    "CRANBROOK": {
+        "coords": [
+            49.507158,
+            -115.743049
+        ],
+        "percentage": 0.1
+    },
+    "CRESTON": {
+        "coords": [
+            49.09252,
+            -116.496351
+        ],
+        "percentage": 0.04
+    },
+    "WEST CRESTON": {
+        "coords": [
+            49.084965,
+            -116.59846
+        ],
+        "percentage": 0.0
+    },
+    "ARROW CREEK": {
+        "coords": [
+            49.08838654,
+            -116.4630203
+        ],
+        "percentage": 0.0
+    },
+    "Cultus Lake": {
+        "coords": [
+            49.07949,
+            -121.969824
+        ],
+        "percentage": 0.0
+    },
+    "CUMBERLAND": {
+        "coords": [
+            49.624048,
+            -125.040199
+        ],
+        "percentage": 0.02
+    },
+    "DARFIELD": {
+        "coords": [
+            51.467354,
+            -120.332995
+        ],
+        "percentage": 0.0
+    },
+    "DAWSON CREEK": {
+        "coords": [
+            55.749633,
+            -120.255043
+        ],
+        "percentage": 0.06
+    },
+    "Delta": {
+        "coords": [
+            49.028261,
+            -123.056906
+        ],
+        "percentage": 0.03
+    },
+    "TSAWWASSEN": {
+        "coords": [
+            49.0293898,
+            -123.0952473
+        ],
+        "percentage": 0.15
+    },
+    "DENMAN ISLAND": {
+        "coords": [
+            49.572499,
+            -124.84085
+        ],
+        "percentage": 0.01
+    },
+    "BEAR CANYON": {
+        "coords": [
+            56.391853,
+            -119.711188
+        ],
+        "percentage": 0.01
+    },
+    "GRANISLE": {
+        "coords": [
+            54.817274,
+            -126.144372
+        ],
+        "percentage": 0.01
+    },
+    "MCLEESE LAKE": {
+        "coords": [
+            52.424609,
+            -122.312035
+        ],
+        "percentage": 0.02
+    },
+    "Deroche": {
+        "coords": [
+            49.232059,
+            -122.001135
+        ],
+        "percentage": 0.0
+    },
+    "HEDLEY": {
+        "coords": [
+            49.357177,
+            -120.076543
+        ],
+        "percentage": 0.01
+    },
+    "PORT MCNEILL": {
+        "coords": [
+            50.572227,
+            -127.029674
+        ],
+        "percentage": 0.04
+    },
+    "DEVON": {
+        "coords": [
+            53.3615584,
+            -113.724228
+        ],
+        "percentage": 0.0
+    },
+    "DRYDEN": {
+        "coords": [
+            49.7855395,
+            -92.8634945
+        ],
+        "percentage": 0.0
+    },
+    "Duncan": {
+        "coords": [
+            48.7787,
+            -123.7079
+        ],
+        "percentage": 0.0
+    },
+    "EAGLE BAY": {
+        "coords": [
+            50.937079,
+            -119.138682
+        ],
+        "percentage": 0.01
+    },
+    "EAST GATE": {
+        "coords": [
+            49.090085,
+            -120.871743
+        ],
+        "percentage": 0.0
+    },
+    "EDGEWOOD": {
+        "coords": [
+            49.777599,
+            -118.141003
+        ],
+        "percentage": 0.0
+    },
+    "EDMONTON": {
+        "coords": [
+            53.5377498,
+            -113.5902087
+        ],
+        "percentage": 0.01
+    },
+    "EGMONT": {
+        "coords": [
+            49.757443,
+            -123.625632
+        ],
+        "percentage": 0.0
+    },
+    "ELKFORD": {
+        "coords": [
+            50.034242,
+            -114.879124
+        ],
+        "percentage": 0.01
+    },
+    "ELKO": {
+        "coords": [
+            49.30181122,
+            -115.1148911
+        ],
+        "percentage": 0.0
+    },
+    "ELM CREEK": {
+        "coords": [
+            49.765559,
+            -98.301033
+        ],
+        "percentage": 0.0
+    },
+    "ENDAKO": {
+        "coords": [
+            54.087454,
+            -124.975888
+        ],
+        "percentage": 0.0
+    },
+    "Enderby": {
+        "coords": [
+            50.554224,
+            -119.009062
+        ],
+        "percentage": 0.01
+    },
+    "ENOCH": {
+        "coords": [
+            53.470642,
+            -113.799293
+        ],
+        "percentage": 0.0
+    },
+    "ERICKSON": {
+        "coords": [
+            49.072886,
+            -116.473674
+        ],
+        "percentage": 0.0
+    },
+    "ESQUIMALT": {
+        "coords": [
+            48.4435267,
+            -123.4060471
+        ],
+        "percentage": 0.0
+    },
+    "FAIRMONT HOT SPRINGS": {
+        "coords": [
+            50.2874016,
+            -115.8789213
+        ],
+        "percentage": 0.0
+    },
+    "FANNY BAY": {
+        "coords": [
+            49.494669,
+            -124.819852
+        ],
+        "percentage": 0.02
+    },
+    "FAUQUIER": {
+        "coords": [
+            49.872284,
+            -118.071761
+        ],
+        "percentage": 0.0
+    },
+    "Ferndale": {
+        "coords": [
+            48.8462,
+            -122.591
+        ],
+        "percentage": 0.0
+    },
+    "FERNIE": {
+        "coords": [
+            49.492372,
+            -115.071785
+        ],
+        "percentage": 0.02
+    },
+    "LETHBRIDGE": {
+        "coords": [
+            49.727584,
+            -112.817973
+        ],
+        "percentage": 0.01
+    },
+    "FIELD": {
+        "coords": [
+            51.395426,
+            -116.482154
+        ],
+        "percentage": 0.0
+    },
+    "FURRY CREEK": {
+        "coords": [
+            49.585062,
+            -123.224698
+        ],
+        "percentage": 0.0
+    },
+    "FORK RIVER": {
+        "coords": [
+            51.32677,
+            -99.959126
+        ],
+        "percentage": 0.0
+    },
+    "WALHACHIN": {
+        "coords": [
+            50.75446701,
+            -120.9901657
+        ],
+        "percentage": 0.0
+    },
+    "KIMBERLEY": {
+        "coords": [
+            49.692988,
+            -115.988162
+        ],
+        "percentage": 0.05
+    },
+    "FORT MCMURRAY": {
+        "coords": [
+            56.729594,
+            -111.413516
+        ],
+        "percentage": 0.0
+    },
+    "TRAIL": {
+        "coords": [
+            49.023891,
+            -117.695584
+        ],
+        "percentage": 0.06
+    },
+    "Fort St. John": {
+        "coords": [
+            56.286452,
+            -120.952901
+        ],
+        "percentage": 0.0
+    },
+    "FORT STEELE": {
+        "coords": [
+            49.615543,
+            -115.630071
+        ],
+        "percentage": 0.0
+    },
+    "FOX CREEK": {
+        "coords": [
+            54.403913,
+            -116.804165
+        ],
+        "percentage": 0.0
+    },
+    "FRUITVALE": {
+        "coords": [
+            49.103792,
+            -117.543692
+        ],
+        "percentage": 0.02
+    },
+    "KEREMEOS": {
+        "coords": [
+            49.26406,
+            -119.832413
+        ],
+        "percentage": 0.09
+    },
+    "MEADOW CREEK": {
+        "coords": [
+            50.233333,
+            -116.983333
+        ],
+        "percentage": 0.01
+    },
+    "RIMBEY": {
+        "coords": [
+            52.560953,
+            -114.4846
+        ],
+        "percentage": 0.0
+    },
+    "ROSS SPUR": {
+        "coords": [
+            49.11187,
+            -117.541839
+        ],
+        "percentage": 0.01
+    },
+    "PROCTER": {
+        "coords": [
+            49.554698,
+            -116.969216
+        ],
+        "percentage": 0.0
+    },
+    "GABRIOLA": {
+        "coords": [
+            49.18493,
+            -123.835356
+        ],
+        "percentage": 0.04
+    },
+    "ROCK CREEK": {
+        "coords": [
+            49.119295,
+            -119.129046
+        ],
+        "percentage": 0.01
+    },
+    "GALIANO": {
+        "coords": [
+            48.934086,
+            -123.46208
+        ],
+        "percentage": 0.01
+    },
+    "GALIANO ISLAND": {
+        "coords": [
+            48.934086,
+            -123.46208
+        ],
+        "percentage": 0.01
+    },
+    "Galiano Island": {
+        "coords": [
+            48.934086,
+            -123.46208
+        ],
+        "percentage": 0.0
+    },
+    "GARDEN BAY": {
+        "coords": [
+            49.629679,
+            -124.029048
+        ],
+        "percentage": 0.03
+    },
+    "MACKENZIE": {
+        "coords": [
+            55.3382225,
+            -123.0947113
+        ],
+        "percentage": 0.03
+    },
+    "SAYWARD": {
+        "coords": [
+            50.298912,
+            -125.547693
+        ],
+        "percentage": 0.01
+    },
+    "SMITHERS": {
+        "coords": [
+            54.750979,
+            -127.101178
+        ],
+        "percentage": 0.09
+    },
+    "TATLA LAKE": {
+        "coords": [
+            51.90179062,
+            -124.5944824
+        ],
+        "percentage": 0.0
+    },
+    "YAHK": {
+        "coords": [
+            49.085064,
+            -116.078735
+        ],
+        "percentage": 0.01
+    },
+    "GRINDROD": {
+        "coords": [
+            50.627406,
+            -119.121467
+        ],
+        "percentage": 0.0
+    },
+    "LIONS BAY": {
+        "coords": [
+            49.479452,
+            -123.243599
+        ],
+        "percentage": 0.01
+    },
+    "Gibsons": {
+        "coords": [
+            49.408794,
+            -123.5075
+        ],
+        "percentage": 0.0
+    },
+    "ROBERTS CREEK": {
+        "coords": [
+            49.4245271,
+            -123.6534785
+        ],
+        "percentage": 0.07
+    },
+    "GILLIES BAY": {
+        "coords": [
+            49.679252,
+            -124.481821
+        ],
+        "percentage": 0.0
+    },
+    "GITANMAAX": {
+        "coords": [
+            55.25477982,
+            -127.6655121
+        ],
+        "percentage": 0.0
+    },
+    "HAZELTON": {
+        "coords": [
+            55.2546,
+            -127.676897
+        ],
+        "percentage": 0.02
+    },
+    "GITSEGUKLA": {
+        "coords": [
+            55.08673859,
+            -127.8311768
+        ],
+        "percentage": 0.01
+    },
+    "TERRACE": {
+        "coords": [
+            54.711844,
+            -128.7782
+        ],
+        "percentage": 0.15
+    },
+    "GRANDE PRAIRIE": {
+        "coords": [
+            55.178898,
+            -118.765801
+        ],
+        "percentage": 0.0
+    },
+    "LADYSMITH": {
+        "coords": [
+            49.01801682,
+            -123.8582535
+        ],
+        "percentage": 0.22
+    },
+    "GREENVILLE": {
+        "coords": [
+            55.016267,
+            -129.546658
+        ],
+        "percentage": 0.0
+    },
+    "GROUNDBIRCH": {
+        "coords": [
+            55.870779,
+            -121.059296
+        ],
+        "percentage": 0.0
+    },
+    "VAN ANDA": {
+        "coords": [
+            49.679253,
+            -124.481821
+        ],
+        "percentage": 0.0
+    },
+    "HAGENSBORG": {
+        "coords": [
+            52.383333,
+            -126.549999
+        ],
+        "percentage": 0.01
+    },
+    "HALFMOON BAY": {
+        "coords": [
+            49.493189,
+            -123.908991
+        ],
+        "percentage": 0.08
+    },
+    "Halfmoon Bay": {
+        "coords": [
+            49.559973,
+            -123.9971359
+        ],
+        "percentage": 0.0
+    },
+    "BRISCO": {
+        "coords": [
+            50.826998,
+            -116.269968
+        ],
+        "percentage": 0.0
+    },
+    "POWELL RIVER": {
+        "coords": [
+            49.771181,
+            -124.391163
+        ],
+        "percentage": 0.28
+    },
+    "YALE": {
+        "coords": [
+            49.523513,
+            -121.423263
+        ],
+        "percentage": 0.0
+    },
+    "DUNSTER": {
+        "coords": [
+            53.116666,
+            -119.833332
+        ],
+        "percentage": 0.0
+    },
+    "KISPIOX": {
+        "coords": [
+            55.34634018,
+            -127.6889725
+        ],
+        "percentage": 0.0
+    },
+    "OKANAGAN FALLS": {
+        "coords": [
+            49.298224,
+            -119.530214
+        ],
+        "percentage": 0.06
+    },
+    "SOUTHBANK": {
+        "coords": [
+            53.948524,
+            -125.65042
+        ],
+        "percentage": 0.0
+    },
+    "HEFFLEY CREEK": {
+        "coords": [
+            50.866313,
+            -119.888065
+        ],
+        "percentage": 0.01
+    },
+    "HERIOT BAY": {
+        "coords": [
+            50.34795,
+            -125.296333
+        ],
+        "percentage": 0.01
+    },
+    "HIGH RIVER": {
+        "coords": [
+            50.574971,
+            -113.88627
+        ],
+        "percentage": 0.0
+    },
+    "HINTON": {
+        "coords": [
+            53.391563,
+            -117.590172
+        ],
+        "percentage": 0.0
+    },
+    "Hixon": {
+        "coords": [
+            53.294994,
+            -122.450673
+        ],
+        "percentage": 0.0
+    },
+    "HOLBERG": {
+        "coords": [
+            50.65535,
+            -128.019087
+        ],
+        "percentage": 0.0
+    },
+    "NEW HAZELTON": {
+        "coords": [
+            55.247389,
+            -127.58111
+        ],
+        "percentage": 0.01
+    },
+    "VANDERHOOF": {
+        "coords": [
+            54.007738,
+            -123.679997
+        ],
+        "percentage": 0.04
+    },
+    "HORNBY ISLAND": {
+        "coords": [
+            49.509425,
+            -124.637152
+        ],
+        "percentage": 0.0
+    },
+    "HOUSTON": {
+        "coords": [
+            54.259004,
+            -126.627836
+        ],
+        "percentage": 0.03
+    },
+    "ROSSLAND": {
+        "coords": [
+            49.071441,
+            -117.792914
+        ],
+        "percentage": 0.02
+    },
+    "HUDSON'S HOPE": {
+        "coords": [
+            56.299923,
+            -121.564521
+        ],
+        "percentage": 0.01
+    },
+    "INNISFIL": {
+        "coords": [
+            44.317969,
+            -79.533282
+        ],
+        "percentage": 0.0
+    },
+    "Pritchard": {
+        "coords": [
+            50.686428,
+            -119.819019
+        ],
+        "percentage": 0.0
+    },
+    "Issaquah": {
+        "coords": [
+            47.5301,
+            -122.0326
+        ],
+        "percentage": 0.0
+    },
+    "KNUTSFORD": {
+        "coords": [
+            50.616005,
+            -120.301534
+        ],
+        "percentage": 0.01
+    },
+    "Kamloops": {
+        "coords": [
+            50.757898,
+            -120.349762
+        ],
+        "percentage": 0.02
+    },
+    "KANATA": {
+        "coords": [
+            45.3480712,
+            -75.945148
+        ],
+        "percentage": 0.0
+    },
+    "Kelowna": {
+        "coords": [
+            53.707895,
+            -113.221154
+        ],
+        "percentage": 0.03
+    },
+    "KINGCOME INLET": {
+        "coords": [
+            50.970569,
+            -126.179377
+        ],
+        "percentage": 0.0
+    },
+    "KITCHENER": {
+        "coords": [
+            49.1604538,
+            -116.2761993
+        ],
+        "percentage": 0.0
+    },
+    "KITIMAT": {
+        "coords": [
+            54.066769,
+            -128.651623
+        ],
+        "percentage": 0.08
+    },
+    "Kitimat": {
+        "coords": [
+            54.043285,
+            -128.661841
+        ],
+        "percentage": 0.0
+    },
+    "THORNHILL": {
+        "coords": [
+            54.501819,
+            -128.506203
+        ],
+        "percentage": 0.03
+    },
+    "KLEMTU": {
+        "coords": [
+            52.591781,
+            -128.528923
+        ],
+        "percentage": 0.0
+    },
+    "Knutsford": {
+        "coords": [
+            50.616005,
+            -120.301534
+        ],
+        "percentage": 0.0
+    },
+    "ROBSON": {
+        "coords": [
+            49.345048,
+            -117.732571
+        ],
+        "percentage": 0.01
+    },
+    "KRESTOVA": {
+        "coords": [
+            49.742973,
+            -117.482165
+        ],
+        "percentage": 0.0
+    },
+    "TOMSLAKE": {
+        "coords": [
+            55.249549,
+            -120.043625
+        ],
+        "percentage": 0.0
+    },
+    "Ladysmith": {
+        "coords": [
+            48.976708,
+            -123.802094
+        ],
+        "percentage": 0.0
+    },
+    "THETIS ISLAND": {
+        "coords": [
+            48.987381,
+            -123.685764
+        ],
+        "percentage": 0.01
+    },
+    "Langley": {
+        "coords": [
+            49.133472,
+            -122.664689
+        ],
+        "percentage": 0.13
+    },
+    "SUDBURY": {
+        "coords": [
+            46.5249714,
+            -80.9828447
+        ],
+        "percentage": 0.0
+    },
+    "LASQUETI": {
+        "coords": [
+            49.483102,
+            -124.287038
+        ],
+        "percentage": 0.0
+    },
+    "LAX KW'ALAAMS": {
+        "coords": [
+            54.558638,
+            -130.427887
+        ],
+        "percentage": 0.01
+    },
+    "LAZO": {
+        "coords": [
+            49.709424,
+            -124.9138
+        ],
+        "percentage": 0.0
+    },
+    "LEE CREEK": {
+        "coords": [
+            51.3670005,
+            -119.0147615
+        ],
+        "percentage": 0.02
+    },
+    "LINDSAY": {
+        "coords": [
+            44.345442,
+            -78.75513
+        ],
+        "percentage": 0.0
+    },
+    "LITTLE FORT": {
+        "coords": [
+            51.424211,
+            -120.19737
+        ],
+        "percentage": 0.0
+    },
+    "LIVERPOOL": {
+        "coords": [
+            44.039167,
+            -64.71609
+        ],
+        "percentage": 0.0
+    },
+    "MERVILLE": {
+        "coords": [
+            49.770736,
+            -125.102721
+        ],
+        "percentage": 0.01
+    },
+    "LONDON": {
+        "coords": [
+            42.936509,
+            -81.311101
+        ],
+        "percentage": 0.0
+    },
+    "Lone Tree": {
+        "coords": [
+            39.5517,
+            -104.8873
+        ],
+        "percentage": 0.0
+    },
+    "Los Angeles": {
+        "coords": [
+            34.0579,
+            -118.3097
+        ],
+        "percentage": 0.0
+    },
+    "LOUIS CREEK": {
+        "coords": [
+            51.075768,
+            -119.774709
+        ],
+        "percentage": 0.01
+    },
+    "Louis Creek": {
+        "coords": [
+            51.075768,
+            -119.774709
+        ],
+        "percentage": 0.0
+    },
+    "LOWER NICOLA": {
+        "coords": [
+            50.289667,
+            -121.199153
+        ],
+        "percentage": 0.03
+    },
+    "Lower Nicola": {
+        "coords": [
+            50.289667,
+            -121.199153
+        ],
+        "percentage": 0.0
+    },
+    "LUMBY": {
+        "coords": [
+            50.248594,
+            -118.959721
+        ],
+        "percentage": 0.04
+    },
+    "LUND": {
+        "coords": [
+            49.951876,
+            -124.637232
+        ],
+        "percentage": 0.01
+    },
+    "NARAMATA": {
+        "coords": [
+            49.597602,
+            -119.593611
+        ],
+        "percentage": 0.04
+    },
+    "MAGNA BAY": {
+        "coords": [
+            51.3670005,
+            -119.0147615
+        ],
+        "percentage": 0.0
+    },
+    "MALAHAT": {
+        "coords": [
+            48.490831,
+            -123.600295
+        ],
+        "percentage": 0.0
+    },
+    "MANSONS LANDING": {
+        "coords": [
+            50.049091,
+            -124.990587
+        ],
+        "percentage": 0.01
+    },
+    "Manurewa": {
+        "coords": [
+            -37.0236,
+            174.9042
+        ],
+        "percentage": 0.0
+    },
+    "Maple Ridge": {
+        "coords": [
+            49.216393,
+            -122.482154
+        ],
+        "percentage": 0.06
+    },
+    "NELSON": {
+        "coords": [
+            49.509725,
+            -117.306946
+        ],
+        "percentage": 0.07
+    },
+    "MARA": {
+        "coords": [
+            50.6855175,
+            -119.0714086
+        ],
+        "percentage": 0.0
+    },
+    "MAYNE ISLAND": {
+        "coords": [
+            48.8597939,
+            -123.2816616
+        ],
+        "percentage": 0.04
+    },
+    "MEDICINE HAT": {
+        "coords": [
+            50.062206,
+            -110.642934
+        ],
+        "percentage": 0.0
+    },
+    "MESACHIE LAKE": {
+        "coords": [
+            48.8078,
+            -124.136455
+        ],
+        "percentage": 0.0
+    },
+    "Mesachie Lake": {
+        "coords": [
+            48.8078,
+            -124.136455
+        ],
+        "percentage": 0.0
+    },
+    "MILL BAY": {
+        "coords": [
+            48.644012,
+            -123.559976
+        ],
+        "percentage": 0.03
+    },
+    "Mill Bay": {
+        "coords": [
+            48.627692,
+            -123.553569
+        ],
+        "percentage": 0.01
+    },
+    "Mission": {
+        "coords": [
+            49.197032,
+            -122.360342
+        ],
+        "percentage": 0.0
+    },
+    "MISSISSAUGA": {
+        "coords": [
+            43.63252,
+            -79.725087
+        ],
+        "percentage": 0.0
+    },
+    "MOBERLY LAKE": {
+        "coords": [
+            55.800417,
+            -121.901692
+        ],
+        "percentage": 0.0
+    },
+    "MONCTON": {
+        "coords": [
+            46.107774,
+            -64.751932
+        ],
+        "percentage": 0.0
+    },
+    "MONTE CREEK": {
+        "coords": [
+            50.69023,
+            -120.046143
+        ],
+        "percentage": 0.0
+    },
+    "MONTE LAKE": {
+        "coords": [
+            50.386195,
+            -119.798167
+        ],
+        "percentage": 0.0
+    },
+    "TLELL": {
+        "coords": [
+            53.54341,
+            -131.974951
+        ],
+        "percentage": 0.0
+    },
+    "MONTREAL": {
+        "coords": [
+            45.550892,
+            -73.537189
+        ],
+        "percentage": 0.0
+    },
+    "MORINVILLE": {
+        "coords": [
+            53.796291,
+            -113.653183
+        ],
+        "percentage": 0.0
+    },
+    "MUENSTER": {
+        "coords": [
+            52.247614,
+            -104.896926
+        ],
+        "percentage": 0.0
+    },
+    "Nanaimo": {
+        "coords": [
+            49.14368,
+            -123.978332
+        ],
+        "percentage": 0.01
+    },
+    "PORT ALBERNI": {
+        "coords": [
+            49.2560373,
+            -124.8104662
+        ],
+        "percentage": 0.32
+    },
+    "NANOOSE BAY": {
+        "coords": [
+            49.3123569,
+            -124.2082854
+        ],
+        "percentage": 0.12
+    },
+    "QUILCHENA": {
+        "coords": [
+            50.18976,
+            -120.455861
+        ],
+        "percentage": 0.01
+    },
+    "Squamish": {
+        "coords": [
+            49.7046988,
+            -123.126045
+        ],
+        "percentage": 0.01
+    },
+    "New Westminster": {
+        "coords": [
+            49.2166188,
+            -122.89531
+        ],
+        "percentage": 0.02
+    },
+    "NEWGATE": {
+        "coords": [
+            49.37675095,
+            -115.2972412
+        ],
+        "percentage": 0.0
+    },
+    "NORTH BEND": {
+        "coords": [
+            51.6827509,
+            -121.4885661
+        ],
+        "percentage": 0.0
+    },
+    "NORTH SAANICH": {
+        "coords": [
+            48.646789,
+            -123.416764
+        ],
+        "percentage": 0.07
+    },
+    "SIDNEY": {
+        "coords": [
+            48.64587,
+            -123.405513
+        ],
+        "percentage": 0.07
+    },
+    "North Vancouver": {
+        "coords": [
+            49.308254,
+            -123.017374
+        ],
+        "percentage": 0.03
+    },
+    "WEST VANCOUVER": {
+        "coords": [
+            49.334527,
+            -123.137473
+        ],
+        "percentage": 0.57
+    },
+    "Vancouver": {
+        "coords": [
+            49.275756,
+            -123.07585
+        ],
+        "percentage": 0.09
+    },
+    "Okanagan Falls": {
+        "coords": [
+            49.34468079,
+            -119.5715103
+        ],
+        "percentage": 0.0
+    },
+    "OKOTOKS": {
+        "coords": [
+            50.715291,
+            -113.968038
+        ],
+        "percentage": 0.0
+    },
+    "Oliver": {
+        "coords": [
+            49.1437996,
+            -119.244978
+        ],
+        "percentage": 0.01
+    },
+    "Osoyoos": {
+        "coords": [
+            49.031443,
+            -119.445395
+        ],
+        "percentage": 0.0
+    },
+    "Port McNeill": {
+        "coords": [
+            50.572227,
+            -127.029674
+        ],
+        "percentage": 0.0
+    },
+    "NEPEAN": {
+        "coords": [
+            45.274051,
+            -75.750606
+        ],
+        "percentage": 0.0
+    },
+    "OTTAWA": {
+        "coords": [
+            45.4177335,
+            -75.6886002
+        ],
+        "percentage": 0.0
+    },
+    "WOODLAWN": {
+        "coords": [
+            45.477763,
+            -76.069464
+        ],
+        "percentage": 0.0
+    },
+    "GLOUCESTER": {
+        "coords": [
+            45.43825,
+            -75.567969
+        ],
+        "percentage": 0.0
+    },
+    "Parksville": {
+        "coords": [
+            49.325387,
+            -124.332943
+        ],
+        "percentage": 0.0
+    },
+    "PARSON": {
+        "coords": [
+            51.036792,
+            -116.488738
+        ],
+        "percentage": 0.0
+    },
+    "PEACE RIVER REGIONAL DISTRICT": {
+        "coords": [
+            55.752184,
+            -120.186908
+        ],
+        "percentage": 0.0
+    },
+    "PEACHLAND": {
+        "coords": [
+            49.7932,
+            -119.70274
+        ],
+        "percentage": 0.09
+    },
+    "PENDER ISLAND": {
+        "coords": [
+            48.771536,
+            -123.291645
+        ],
+        "percentage": 0.03
+    },
+    "PETAWAWA": {
+        "coords": [
+            45.894802,
+            -77.288786
+        ],
+        "percentage": 0.0
+    },
+    "PINANTAN LAKE": {
+        "coords": [
+            50.732099,
+            -120.014919
+        ],
+        "percentage": 0.01
+    },
+    "Pitt Meadows": {
+        "coords": [
+            49.221036,
+            -122.7261
+        ],
+        "percentage": 0.01
+    },
+    "Point Roberts": {
+        "coords": [
+            48.9856,
+            -123.0779
+        ],
+        "percentage": 0.0
+    },
+    "PORT COLBORNE": {
+        "coords": [
+            42.872639,
+            -79.28151
+        ],
+        "percentage": 0.0
+    },
+    "Port Coquitlam": {
+        "coords": [
+            49.272175,
+            -122.740196
+        ],
+        "percentage": 0.01
+    },
+    "TAYLOR": {
+        "coords": [
+            55.95084,
+            -120.637573
+        ],
+        "percentage": 0.0
+    },
+    "Port Moody": {
+        "coords": [
+            49.29377,
+            -122.827973
+        ],
+        "percentage": 0.02
+    },
+    "HALIFAX": {
+        "coords": [
+            44.654124,
+            -63.592709
+        ],
+        "percentage": 0.0
+    },
+    "TRURO": {
+        "coords": [
+            45.357886,
+            -63.287732
+        ],
+        "percentage": 0.0
+    },
+    "Prince George": {
+        "coords": [
+            53.944727,
+            -122.75263
+        ],
+        "percentage": 0.0
+    },
+    "Puerto Vallarta": {
+        "coords": [
+            20.6534,
+            -105.2253
+        ],
+        "percentage": 0.0
+    },
+    "Qualicum Beach": {
+        "coords": [
+            49.393475,
+            -124.661922
+        ],
+        "percentage": 0.0
+    },
+    "QUEENS BAY": {
+        "coords": [
+            49.657118,
+            -116.938479
+        ],
+        "percentage": 0.0
+    },
+    "Quesnel": {
+        "coords": [
+            53.0304916,
+            -122.6285392
+        ],
+        "percentage": 0.0
+    },
+    "RED DEER": {
+        "coords": [
+            52.24404,
+            -113.763022
+        ],
+        "percentage": 0.0
+    },
+    "Redmond": {
+        "coords": [
+            47.674,
+            -122.1215
+        ],
+        "percentage": 0.0
+    },
+    "REGINA": {
+        "coords": [
+            50.468718,
+            -104.677036
+        ],
+        "percentage": 0.0
+    },
+    "Richmond": {
+        "coords": [
+            49.1595526,
+            -123.1438361
+        ],
+        "percentage": 0.01
+    },
+    "RIONDEL": {
+        "coords": [
+            49.757181,
+            -116.855097
+        ],
+        "percentage": 0.0
+    },
+    "ROLLA": {
+        "coords": [
+            55.960121,
+            -120.335356
+        ],
+        "percentage": 0.0
+    },
+    "TELEGRAPH CREEK": {
+        "coords": [
+            57.908863,
+            -131.211721
+        ],
+        "percentage": 0.0
+    },
+    "GIBBONS": {
+        "coords": [
+            53.96418,
+            -113.236053
+        ],
+        "percentage": 0.0
+    },
+    "ROSEMERE": {
+        "coords": [
+            45.647355,
+            -73.800426
+        ],
+        "percentage": 0.0
+    },
+    "ROYSTON": {
+        "coords": [
+            49.642365,
+            -124.932652
+        ],
+        "percentage": 0.01
+    },
+    "Saanichton": {
+        "coords": [
+            48.590767,
+            -123.381553
+        ],
+        "percentage": 0.0
+    },
+    "SANDSPIT": {
+        "coords": [
+            53.238424,
+            -131.834853
+        ],
+        "percentage": 0.0
+    },
+    "SASKATOON": {
+        "coords": [
+            52.110183,
+            -106.60308
+        ],
+        "percentage": 0.0
+    },
+    "SATURNA": {
+        "coords": [
+            48.79467,
+            -123.195577
+        ],
+        "percentage": 0.0
+    },
+    "SAUBLE BEACH": {
+        "coords": [
+            44.631227,
+            -81.266459
+        ],
+        "percentage": 0.0
+    },
+    "Sayward": {
+        "coords": [
+            50.298912,
+            -125.547693
+        ],
+        "percentage": 0.0
+    },
+    "SCOTCH CREEK": {
+        "coords": [
+            50.92528534,
+            -119.428627
+        ],
+        "percentage": 0.02
+    },
+    "Sechelt": {
+        "coords": [
+            49.503932,
+            -123.781486
+        ],
+        "percentage": 0.03
+    },
+    "SETON PORTAGE": {
+        "coords": [
+            50.704904,
+            -122.280748
+        ],
+        "percentage": 0.0
+    },
+    "SEXSMITH": {
+        "coords": [
+            55.332484,
+            -119.168908
+        ],
+        "percentage": 0.0
+    },
+    "Shawnigan Lake": {
+        "coords": [
+            48.644401,
+            -123.622553
+        ],
+        "percentage": 0.01
+    },
+    "SHERWOOD PARK": {
+        "coords": [
+            53.5394806,
+            -113.2552798
+        ],
+        "percentage": 0.0
+    },
+    "SHIRLEY": {
+        "coords": [
+            48.386336,
+            -123.70788
+        ],
+        "percentage": 0.0
+    },
+    "Sicamous": {
+        "coords": [
+            50.827518,
+            -118.989859
+        ],
+        "percentage": 0.0
+    },
+    "SIK-E-DAKH": {
+        "coords": [
+            55.26425171,
+            -127.6438675
+        ],
+        "percentage": 0.0
+    },
+    "Silverton": {
+        "coords": [
+            49.742181,
+            -117.466282
+        ],
+        "percentage": 0.0
+    },
+    "SLOCAN PARK": {
+        "coords": [
+            49.516738,
+            -117.621514
+        ],
+        "percentage": 0.0
+    },
+    "Smithers": {
+        "coords": [
+            54.888168,
+            -127.223856
+        ],
+        "percentage": 0.0
+    },
+    "SOOKE": {
+        "coords": [
+            48.3852382,
+            -123.6878229
+        ],
+        "percentage": 0.09
+    },
+    "SOUTH HAZELTON": {
+        "coords": [
+            55.21462631,
+            -127.6583862
+        ],
+        "percentage": 0.0
+    },
+    "SOUTH SLOCAN": {
+        "coords": [
+            49.493633,
+            -117.401991
+        ],
+        "percentage": 0.0
+    },
+    "South Surrey": {
+        "coords": [
+            49.020809,
+            -122.773479
+        ],
+        "percentage": 0.0
+    },
+    "SPARWOOD": {
+        "coords": [
+            49.746544,
+            -114.901327
+        ],
+        "percentage": 0.01
+    },
+    "Union Bay": {
+        "coords": [
+            49.580295,
+            -124.903895
+        ],
+        "percentage": 0.0
+    },
+    "ST. ALBERT": {
+        "coords": [
+            53.620552,
+            -113.619423
+        ],
+        "percentage": 0.0
+    },
+    "ST IVES": {
+        "coords": [
+            51.3670005,
+            -119.0147615
+        ],
+        "percentage": 0.0
+    },
+    "TA TA CREEK": {
+        "coords": [
+            49.782836,
+            -115.736385
+        ],
+        "percentage": 0.0
+    },
+    "Sun City": {
+        "coords": [
+            33.5975,
+            -112.2719
+        ],
+        "percentage": 0.0
+    },
+    "SUN PEAKS": {
+        "coords": [
+            50.884954,
+            -119.880731
+        ],
+        "percentage": 0.01
+    },
+    "HANOVER": {
+        "coords": [
+            44.152279,
+            -81.020294
+        ],
+        "percentage": 0.0
+    },
+    "BEDFORD": {
+        "coords": [
+            44.72571,
+            -63.679392
+        ],
+        "percentage": 0.01
+    },
+    "KENTVILLE": {
+        "coords": [
+            45.089639,
+            -64.490748
+        ],
+        "percentage": 0.0
+    },
+    "WESTBANK": {
+        "coords": [
+            49.840769,
+            -119.626125
+        ],
+        "percentage": 0.17
+    },
+    "SWANSEA POINT": {
+        "coords": [
+            50.77900314,
+            -118.9991989
+        ],
+        "percentage": 0.0
+    },
+    "Sylvan Lake": {
+        "coords": [
+            52.298733,
+            -114.114883
+        ],
+        "percentage": 0.0
+    },
+    "SYLVAN LAKE": {
+        "coords": [
+            52.298733,
+            -114.114883
+        ],
+        "percentage": 0.0
+    },
+    "TAHSIS": {
+        "coords": [
+            49.929148,
+            -126.65787
+        ],
+        "percentage": 0.0
+    },
+    "TAPPEN": {
+        "coords": [
+            50.76391983,
+            -119.3314896
+        ],
+        "percentage": 0.03
+    },
+    "Terrace": {
+        "coords": [
+            54.527807,
+            -128.592301
+        ],
+        "percentage": 0.0
+    },
+    "Test": {
+        "coords": [
+            49.2465,
+            -123.1166
+        ],
+        "percentage": 0.0
+    },
+    "THE PAS": {
+        "coords": [
+            53.826093,
+            -101.219808
+        ],
+        "percentage": 0.0
+    },
+    "THUNDER BAY": {
+        "coords": [
+            48.4597558,
+            -89.2502694
+        ],
+        "percentage": 0.0
+    },
+    "TOBIANO": {
+        "coords": [
+            50.6187993,
+            -120.4644084
+        ],
+        "percentage": 0.01
+    },
+    "Tobiano": {
+        "coords": [
+            50.6355829,
+            -120.408043
+        ],
+        "percentage": 0.01
+    },
+    "SCARBOROUGH": {
+        "coords": [
+            43.702728,
+            -79.2761529
+        ],
+        "percentage": 0.0
+    },
+    "TORONTO": {
+        "coords": [
+            43.6984171,
+            -79.3913808
+        ],
+        "percentage": 0.0
+    },
+    "Tsawwassen": {
+        "coords": [
+            49.018038,
+            -123.0818253
+        ],
+        "percentage": 0.0
+    },
+    "TUMBLER RIDGE": {
+        "coords": [
+            55.131168,
+            -120.991292
+        ],
+        "percentage": 0.01
+    },
+    "Vernon": {
+        "coords": [
+            50.257913,
+            -119.269378
+        ],
+        "percentage": 0.01
+    },
+    "WARDNER": {
+        "coords": [
+            49.416135,
+            -115.426766
+        ],
+        "percentage": 0.0
+    },
+    "WARE": {
+        "coords": [
+            57.430357,
+            -125.627956
+        ],
+        "percentage": 0.01
+    },
+    "WELLS": {
+        "coords": [
+            53.102084,
+            -121.569435
+        ],
+        "percentage": 0.0
+    },
+    "WEMBLEY": {
+        "coords": [
+            55.245773,
+            -119.140654
+        ],
+        "percentage": 0.0
+    },
+    "West Kelowna": {
+        "coords": [
+            49.877156,
+            -119.550827
+        ],
+        "percentage": 0.0
+    },
+    "Westbank": {
+        "coords": [
+            49.8313652,
+            -119.6281931
+        ],
+        "percentage": 0.01
+    },
+    "West Vancouver": {
+        "coords": [
+            49.21096,
+            -123.086385
+        ],
+        "percentage": 0.0
+    },
+    "WESTEROSE": {
+        "coords": [
+            52.929346,
+            -114.07471
+        ],
+        "percentage": 0.0
+    },
+    "WESTWOLD": {
+        "coords": [
+            50.46934891,
+            -119.7555237
+        ],
+        "percentage": 0.0
+    },
+    "WHITEHORSE": {
+        "coords": [
+            60.773814,
+            -135.143273
+        ],
+        "percentage": 0.0
+    },
+    "White Rock": {
+        "coords": [
+            49.027612,
+            -122.806624
+        ],
+        "percentage": 0.04
+    },
+    "WILLIAMS LAKE": {
+        "coords": [
+            52.123877,
+            -122.08678
+        ],
+        "percentage": 0.21
+    },
+    "Williams Lake": {
+        "coords": [
+            52.091515,
+            -122.118813
+        ],
+        "percentage": 0.0
+    },
+    "WILLOW RIVER": {
+        "coords": [
+            54.07496,
+            -122.120635
+        ],
+        "percentage": 0.0
+    },
+    "WINDERMERE": {
+        "coords": [
+            50.4739319,
+            -115.9986453
+        ],
+        "percentage": 0.01
+    },
+    "WINNIPEG": {
+        "coords": [
+            49.899764,
+            -96.970726
+        ],
+        "percentage": 0.0
+    },
+    "WOSS": {
+        "coords": [
+            50.209363,
+            -126.591701
+        ],
+        "percentage": 0.0
+    },
+    "WYNNDEL": {
+        "coords": [
+            49.16044617,
+            -116.5643616
+        ],
+        "percentage": 0.0
+    },
+    "Yahk": {
+        "coords": [
+            49.085064,
+            -116.078735
+        ],
+        "percentage": 0.0
+    },
+    "YELLOWKNIFE": {
+        "coords": [
+            62.4443001,
+            -114.3993862
+        ],
+        "percentage": 0.0
+    },
+    "YOUBOU": {
+        "coords": [
+            48.87615,
+            -124.217699
+        ],
+        "percentage": 0.0
+    }
+};
