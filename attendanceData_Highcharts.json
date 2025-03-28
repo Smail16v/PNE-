@@ -6,82 +6,98 @@ var attendanceData = {
                 {
                     "name": "British Columbia, Canada",
                     "y": 99.81,
-                    "drilldown": "British Columbia, Canada"
+                    "drilldown": "British Columbia, Canada",
+                    "amount": "$11,686,320"
                 },
                 {
                     "name": "Saskatchewan, Canada",
                     "y": 0.05,
-                    "drilldown": "Saskatchewan, Canada"
+                    "drilldown": "Saskatchewan, Canada",
+                    "amount": "$6,390"
                 },
                 {
                     "name": "Yukon, Canada",
                     "y": 0.0,
-                    "drilldown": "Yukon, Canada"
+                    "drilldown": "Yukon, Canada",
+                    "amount": "$320"
                 },
                 {
                     "name": "Alberta, Canada",
                     "y": 0.09,
-                    "drilldown": "Alberta, Canada"
+                    "drilldown": "Alberta, Canada",
+                    "amount": "$10,070"
                 },
                 {
                     "name": "Washington, USA",
                     "y": 0.0,
-                    "drilldown": "Washington, USA"
+                    "drilldown": "Washington, USA",
+                    "amount": "$500"
                 },
                 {
                     "name": "Ontario, Canada",
                     "y": 0.02,
-                    "drilldown": "Ontario, Canada"
+                    "drilldown": "Ontario, Canada",
+                    "amount": "$2,150"
                 },
                 {
                     "name": "Manitoba, Canada",
                     "y": 0.01,
-                    "drilldown": "Manitoba, Canada"
+                    "drilldown": "Manitoba, Canada",
+                    "amount": "$1,000"
                 },
                 {
                     "name": "Nova Scotia, Canada",
                     "y": 0.01,
-                    "drilldown": "Nova Scotia, Canada"
+                    "drilldown": "Nova Scotia, Canada",
+                    "amount": "$1,040"
                 },
                 {
                     "name": "Colorado, USA",
                     "y": 0.0,
-                    "drilldown": "Colorado, USA"
+                    "drilldown": "Colorado, USA",
+                    "amount": "$60"
                 },
                 {
                     "name": "California, USA",
                     "y": 0.0,
-                    "drilldown": "California, USA"
+                    "drilldown": "California, USA",
+                    "amount": "$30"
                 },
                 {
                     "name": "Auckland, New Zealand",
                     "y": 0.0,
-                    "drilldown": "Auckland, New Zealand"
+                    "drilldown": "Auckland, New Zealand",
+                    "amount": "$155"
                 },
                 {
                     "name": "New Brunswick, Canada",
                     "y": 0.0,
-                    "drilldown": "New Brunswick, Canada"
+                    "drilldown": "New Brunswick, Canada",
+                    "amount": "$220"
                 },
                 {
                     "name": "Quebec, Canada",
                     "y": 0.0,
-                    "drilldown": "Quebec, Canada"
+                    "drilldown": "Quebec, Canada",
+                    "amount": "$80"
                 },
                 {
                     "name": "Jalisco, Mexico",
                     "y": 0.0,
-                    "drilldown": "Jalisco, Mexico"
+                    "drilldown": "Jalisco, Mexico",
+                    "amount": "$155"
                 },
                 {
                     "name": "Arizona, USA",
                     "y": 0.0,
-                    "drilldown": "Arizona, USA"
+                    "drilldown": "Arizona, USA",
+                    "amount": "$40"
                 },
                 {
                     "name": "Northwest Territories, Canada",
                     "y": 0.0,
-                    "drilldown": "Northwest Territories, Canada"
+                    "drilldown": "Northwest Territories, Canada",
+                    "amount": "$445"
                 }
             ]
         }
@@ -92,512 +108,616 @@ var attendanceData = {
                 "name": "British Columbia, Canada",
                 "id": "British Columbia, Canada",
                 "data": [
-                    [
-                        "VANCOUVER",
-                        8.9
-                    ],
-                    [
-                        "ABBOTSFORD",
-                        3.7
-                    ],
-                    [
-                        "BURNABY",
-                        4.9
-                    ],
-                    [
-                        "CHILLIWACK",
-                        3.17
-                    ],
-                    [
-                        "COQUITLAM",
-                        4.37
-                    ],
-                    [
-                        "KELOWNA",
-                        1.55
-                    ],
-                    [
-                        "LANGLEY",
-                        8.91
-                    ],
-                    [
-                        "NEW WESTMINSTER",
-                        2.95
-                    ],
-                    [
-                        "PITT MEADOWS",
-                        1.14
-                    ],
-                    [
-                        "SURREY",
-                        16.59
-                    ],
-                    [
-                        "DELTA",
-                        3.11
-                    ],
-                    [
-                        "KAMLOOPS",
-                        2.0
-                    ],
-                    [
-                        "MAPLE RIDGE",
-                        3.73
-                    ],
-                    [
-                        "MISSION",
-                        1.11
-                    ],
-                    [
-                        "NANAIMO",
-                        1.32
-                    ],
-                    [
-                        "NORTH VANCOUVER",
-                        3.39
-                    ],
-                    [
-                        "PORT COQUITLAM",
-                        2.42
-                    ],
-                    [
-                        "RICHMOND",
-                        2.61
-                    ],
-                    [
-                        "VICTORIA",
-                        1.69
-                    ],
-                    [
-                        "PORT MOODY",
-                        1.17
-                    ]
+                    {
+                        "name": "VANCOUVER",
+                        "y": 8.9,
+                        "amount": "$1,042,120"
+                    },
+                    {
+                        "name": "ABBOTSFORD",
+                        "y": 3.7,
+                        "amount": "$433,815"
+                    },
+                    {
+                        "name": "BURNABY",
+                        "y": 4.9,
+                        "amount": "$573,625"
+                    },
+                    {
+                        "name": "CHILLIWACK",
+                        "y": 3.17,
+                        "amount": "$371,475"
+                    },
+                    {
+                        "name": "COQUITLAM",
+                        "y": 4.37,
+                        "amount": "$511,385"
+                    },
+                    {
+                        "name": "KELOWNA",
+                        "y": 1.55,
+                        "amount": "$181,380"
+                    },
+                    {
+                        "name": "LANGLEY",
+                        "y": 8.91,
+                        "amount": "$1,043,625"
+                    },
+                    {
+                        "name": "NEW WESTMINSTER",
+                        "y": 2.95,
+                        "amount": "$344,910"
+                    },
+                    {
+                        "name": "PITT MEADOWS",
+                        "y": 1.14,
+                        "amount": "$132,910"
+                    },
+                    {
+                        "name": "SURREY",
+                        "y": 16.59,
+                        "amount": "$1,942,375"
+                    },
+                    {
+                        "name": "DELTA",
+                        "y": 3.11,
+                        "amount": "$363,960"
+                    },
+                    {
+                        "name": "KAMLOOPS",
+                        "y": 2.0,
+                        "amount": "$234,525"
+                    },
+                    {
+                        "name": "MAPLE RIDGE",
+                        "y": 3.73,
+                        "amount": "$436,920"
+                    },
+                    {
+                        "name": "MISSION",
+                        "y": 1.11,
+                        "amount": "$129,450"
+                    },
+                    {
+                        "name": "NANAIMO",
+                        "y": 1.32,
+                        "amount": "$154,430"
+                    },
+                    {
+                        "name": "NORTH VANCOUVER",
+                        "y": 3.39,
+                        "amount": "$396,430"
+                    },
+                    {
+                        "name": "PORT COQUITLAM",
+                        "y": 2.42,
+                        "amount": "$282,825"
+                    },
+                    {
+                        "name": "RICHMOND",
+                        "y": 2.61,
+                        "amount": "$306,175"
+                    },
+                    {
+                        "name": "VICTORIA",
+                        "y": 1.69,
+                        "amount": "$198,305"
+                    },
+                    {
+                        "name": "PORT MOODY",
+                        "y": 1.17,
+                        "amount": "$136,615"
+                    }
                 ]
             },
             {
                 "name": "Saskatchewan, Canada",
                 "id": "Saskatchewan, Canada",
                 "data": [
-                    [
-                        "EDENWOLD",
-                        0.05
-                    ],
-                    [
-                        "MUENSTER",
-                        0.0
-                    ],
-                    [
-                        "REGINA",
-                        0.0
-                    ],
-                    [
-                        "SASKATOON",
-                        0.0
-                    ]
+                    {
+                        "name": "EDENWOLD",
+                        "y": 0.05,
+                        "amount": "$5,550"
+                    },
+                    {
+                        "name": "MUENSTER",
+                        "y": 0.0,
+                        "amount": "$30"
+                    },
+                    {
+                        "name": "REGINA",
+                        "y": 0.0,
+                        "amount": "$310"
+                    },
+                    {
+                        "name": "SASKATOON",
+                        "y": 0.0,
+                        "amount": "$500"
+                    }
                 ]
             },
             {
                 "name": "Yukon, Canada",
                 "id": "Yukon, Canada",
                 "data": [
-                    [
-                        "MARSH LAKE",
-                        0.0
-                    ],
-                    [
-                        "WHITEHORSE",
-                        0.0
-                    ]
+                    {
+                        "name": "MARSH LAKE",
+                        "y": 0.0,
+                        "amount": "$40"
+                    },
+                    {
+                        "name": "WHITEHORSE",
+                        "y": 0.0,
+                        "amount": "$280"
+                    }
                 ]
             },
             {
                 "name": "Alberta, Canada",
                 "id": "Alberta, Canada",
                 "data": [
-                    [
-                        "AIRDRIE",
-                        0.0
-                    ],
-                    [
-                        "TROCHU",
-                        0.0
-                    ],
-                    [
-                        "BANFF",
-                        0.0
-                    ],
-                    [
-                        "BLACKFALDS",
-                        0.0
-                    ],
-                    [
-                        "CALGARY",
-                        0.02
-                    ],
-                    [
-                        "CHESTERMERE",
-                        0.0
-                    ],
-                    [
-                        "BASSANO",
-                        0.0
-                    ],
-                    [
-                        "COUNTY OF GRANDE PRAIRIE NO. 1",
-                        0.0
-                    ],
-                    [
-                        "BEAR CANYON",
-                        0.01
-                    ],
-                    [
-                        "DEVON",
-                        0.0
-                    ],
-                    [
-                        "EDMONTON",
-                        0.01
-                    ],
-                    [
-                        "ENOCH",
-                        0.0
-                    ],
-                    [
-                        "LETHBRIDGE",
-                        0.01
-                    ],
-                    [
-                        "FORT MCMURRAY",
-                        0.0
-                    ],
-                    [
-                        "FOX CREEK",
-                        0.0
-                    ],
-                    [
-                        "RIMBEY",
-                        0.0
-                    ],
-                    [
-                        "GRANDE PRAIRIE",
-                        0.0
-                    ],
-                    [
-                        "HIGH RIVER",
-                        0.0
-                    ],
-                    [
-                        "HINTON",
-                        0.0
-                    ],
-                    [
-                        "MEDICINE HAT",
-                        0.0
-                    ],
-                    [
-                        "MORINVILLE",
-                        0.0
-                    ],
-                    [
-                        "OKOTOKS",
-                        0.0
-                    ],
-                    [
-                        "RED DEER",
-                        0.0
-                    ],
-                    [
-                        "GIBBONS",
-                        0.0
-                    ],
-                    [
-                        "SEXSMITH",
-                        0.0
-                    ],
-                    [
-                        "SHERWOOD PARK",
-                        0.0
-                    ],
-                    [
-                        "ST. ALBERT",
-                        0.0
-                    ],
-                    [
-                        "Sylvan Lake",
-                        0.0
-                    ],
-                    [
-                        "SYLVAN LAKE",
-                        0.0
-                    ],
-                    [
-                        "WEMBLEY",
-                        0.0
-                    ],
-                    [
-                        "WESTEROSE",
-                        0.0
-                    ]
+                    {
+                        "name": "AIRDRIE",
+                        "y": 0.0,
+                        "amount": "$340"
+                    },
+                    {
+                        "name": "TROCHU",
+                        "y": 0.0,
+                        "amount": "$475"
+                    },
+                    {
+                        "name": "BANFF",
+                        "y": 0.0,
+                        "amount": "$120"
+                    },
+                    {
+                        "name": "BLACKFALDS",
+                        "y": 0.0,
+                        "amount": "$40"
+                    },
+                    {
+                        "name": "CALGARY",
+                        "y": 0.02,
+                        "amount": "$2,415"
+                    },
+                    {
+                        "name": "CHESTERMERE",
+                        "y": 0.0,
+                        "amount": "$90"
+                    },
+                    {
+                        "name": "BASSANO",
+                        "y": 0.0,
+                        "amount": "$180"
+                    },
+                    {
+                        "name": "COUNTY OF GRANDE PRAIRIE NO. 1",
+                        "y": 0.0,
+                        "amount": "$145"
+                    },
+                    {
+                        "name": "BEAR CANYON",
+                        "y": 0.01,
+                        "amount": "$920"
+                    },
+                    {
+                        "name": "DEVON",
+                        "y": 0.0,
+                        "amount": "$125"
+                    },
+                    {
+                        "name": "EDMONTON",
+                        "y": 0.01,
+                        "amount": "$1,620"
+                    },
+                    {
+                        "name": "ENOCH",
+                        "y": 0.0,
+                        "amount": "$90"
+                    },
+                    {
+                        "name": "LETHBRIDGE",
+                        "y": 0.01,
+                        "amount": "$600"
+                    },
+                    {
+                        "name": "FORT MCMURRAY",
+                        "y": 0.0,
+                        "amount": "$310"
+                    },
+                    {
+                        "name": "FOX CREEK",
+                        "y": 0.0,
+                        "amount": "$125"
+                    },
+                    {
+                        "name": "RIMBEY",
+                        "y": 0.0,
+                        "amount": "$155"
+                    },
+                    {
+                        "name": "GRANDE PRAIRIE",
+                        "y": 0.0,
+                        "amount": "$80"
+                    },
+                    {
+                        "name": "HIGH RIVER",
+                        "y": 0.0,
+                        "amount": "$60"
+                    },
+                    {
+                        "name": "HINTON",
+                        "y": 0.0,
+                        "amount": "$205"
+                    },
+                    {
+                        "name": "MEDICINE HAT",
+                        "y": 0.0,
+                        "amount": "$305"
+                    },
+                    {
+                        "name": "MORINVILLE",
+                        "y": 0.0,
+                        "amount": "$90"
+                    },
+                    {
+                        "name": "OKOTOKS",
+                        "y": 0.0,
+                        "amount": "$310"
+                    },
+                    {
+                        "name": "RED DEER",
+                        "y": 0.0,
+                        "amount": "$150"
+                    },
+                    {
+                        "name": "GIBBONS",
+                        "y": 0.0,
+                        "amount": "$90"
+                    },
+                    {
+                        "name": "SEXSMITH",
+                        "y": 0.0,
+                        "amount": "$90"
+                    },
+                    {
+                        "name": "SHERWOOD PARK",
+                        "y": 0.0,
+                        "amount": "$195"
+                    },
+                    {
+                        "name": "ST. ALBERT",
+                        "y": 0.0,
+                        "amount": "$255"
+                    },
+                    {
+                        "name": "Sylvan Lake",
+                        "y": 0.0,
+                        "amount": "$70"
+                    },
+                    {
+                        "name": "SYLVAN LAKE",
+                        "y": 0.0,
+                        "amount": "$135"
+                    },
+                    {
+                        "name": "WEMBLEY",
+                        "y": 0.0,
+                        "amount": "$155"
+                    },
+                    {
+                        "name": "WESTEROSE",
+                        "y": 0.0,
+                        "amount": "$130"
+                    }
                 ]
             },
             {
                 "name": "Washington, USA",
                 "id": "Washington, USA",
                 "data": [
-                    [
-                        "Bellevue",
-                        0.0
-                    ],
-                    [
-                        "Bellingham",
-                        0.0
-                    ],
-                    [
-                        "Ferndale",
-                        0.0
-                    ],
-                    [
-                        "Issaquah",
-                        0.0
-                    ],
-                    [
-                        "Point Roberts",
-                        0.0
-                    ],
-                    [
-                        "Redmond",
-                        0.0
-                    ]
+                    {
+                        "name": "Bellevue",
+                        "y": 0.0,
+                        "amount": "$70"
+                    },
+                    {
+                        "name": "Bellingham",
+                        "y": 0.0,
+                        "amount": "$60"
+                    },
+                    {
+                        "name": "Ferndale",
+                        "y": 0.0,
+                        "amount": "$60"
+                    },
+                    {
+                        "name": "Issaquah",
+                        "y": 0.0,
+                        "amount": "$155"
+                    },
+                    {
+                        "name": "Point Roberts",
+                        "y": 0.0,
+                        "amount": "$30"
+                    },
+                    {
+                        "name": "Redmond",
+                        "y": 0.0,
+                        "amount": "$125"
+                    }
                 ]
             },
             {
                 "name": "Ontario, Canada",
                 "id": "Ontario, Canada",
                 "data": [
-                    [
-                        "BURLINGTON",
-                        0.0
-                    ],
-                    [
-                        "CALEDONIA",
-                        0.0
-                    ],
-                    [
-                        "KIRKLAND LAKE",
-                        0.0
-                    ],
-                    [
-                        "COMBER",
-                        0.0
-                    ],
-                    [
-                        "DRYDEN",
-                        0.0
-                    ],
-                    [
-                        "INNISFIL",
-                        0.0
-                    ],
-                    [
-                        "KANATA",
-                        0.0
-                    ],
-                    [
-                        "SUDBURY",
-                        0.0
-                    ],
-                    [
-                        "LINDSAY",
-                        0.0
-                    ],
-                    [
-                        "LONDON",
-                        0.0
-                    ],
-                    [
-                        "MISSISSAUGA",
-                        0.0
-                    ],
-                    [
-                        "NEPEAN",
-                        0.0
-                    ],
-                    [
-                        "OTTAWA",
-                        0.0
-                    ],
-                    [
-                        "WOODLAWN",
-                        0.0
-                    ],
-                    [
-                        "GLOUCESTER",
-                        0.0
-                    ],
-                    [
-                        "PETAWAWA",
-                        0.0
-                    ],
-                    [
-                        "PORT COLBORNE",
-                        0.0
-                    ],
-                    [
-                        "SAUBLE BEACH",
-                        0.0
-                    ],
-                    [
-                        "HANOVER",
-                        0.0
-                    ],
-                    [
-                        "THUNDER BAY",
-                        0.0
-                    ],
-                    [
-                        "SCARBOROUGH",
-                        0.0
-                    ],
-                    [
-                        "TORONTO",
-                        0.0
-                    ]
+                    {
+                        "name": "BURLINGTON",
+                        "y": 0.0,
+                        "amount": "$70"
+                    },
+                    {
+                        "name": "CALEDONIA",
+                        "y": 0.0,
+                        "amount": "$40"
+                    },
+                    {
+                        "name": "KIRKLAND LAKE",
+                        "y": 0.0,
+                        "amount": "$70"
+                    },
+                    {
+                        "name": "COMBER",
+                        "y": 0.0,
+                        "amount": "$125"
+                    },
+                    {
+                        "name": "DRYDEN",
+                        "y": 0.0,
+                        "amount": "$30"
+                    },
+                    {
+                        "name": "INNISFIL",
+                        "y": 0.0,
+                        "amount": "$60"
+                    },
+                    {
+                        "name": "KANATA",
+                        "y": 0.0,
+                        "amount": "$60"
+                    },
+                    {
+                        "name": "SUDBURY",
+                        "y": 0.0,
+                        "amount": "$245"
+                    },
+                    {
+                        "name": "LINDSAY",
+                        "y": 0.0,
+                        "amount": "$40"
+                    },
+                    {
+                        "name": "LONDON",
+                        "y": 0.0,
+                        "amount": "$40"
+                    },
+                    {
+                        "name": "MISSISSAUGA",
+                        "y": 0.0,
+                        "amount": "$30"
+                    },
+                    {
+                        "name": "NEPEAN",
+                        "y": 0.0,
+                        "amount": "$210"
+                    },
+                    {
+                        "name": "OTTAWA",
+                        "y": 0.0,
+                        "amount": "$215"
+                    },
+                    {
+                        "name": "WOODLAWN",
+                        "y": 0.0,
+                        "amount": "$60"
+                    },
+                    {
+                        "name": "GLOUCESTER",
+                        "y": 0.0,
+                        "amount": "$155"
+                    },
+                    {
+                        "name": "PETAWAWA",
+                        "y": 0.0,
+                        "amount": "$125"
+                    },
+                    {
+                        "name": "PORT COLBORNE",
+                        "y": 0.0,
+                        "amount": "$30"
+                    },
+                    {
+                        "name": "SAUBLE BEACH",
+                        "y": 0.0,
+                        "amount": "$40"
+                    },
+                    {
+                        "name": "HANOVER",
+                        "y": 0.0,
+                        "amount": "$185"
+                    },
+                    {
+                        "name": "THUNDER BAY",
+                        "y": 0.0,
+                        "amount": "$150"
+                    },
+                    {
+                        "name": "SCARBOROUGH",
+                        "y": 0.0,
+                        "amount": "$60"
+                    },
+                    {
+                        "name": "TORONTO",
+                        "y": 0.0,
+                        "amount": "$110"
+                    }
                 ]
             },
             {
                 "name": "Manitoba, Canada",
                 "id": "Manitoba, Canada",
                 "data": [
-                    [
-                        "COOKS CREEK",
-                        0.0
-                    ],
-                    [
-                        "ELM CREEK",
-                        0.0
-                    ],
-                    [
-                        "FORK RIVER",
-                        0.0
-                    ],
-                    [
-                        "THE PAS",
-                        0.0
-                    ],
-                    [
-                        "WINNIPEG",
-                        0.0
-                    ]
+                    {
+                        "name": "COOKS CREEK",
+                        "y": 0.0,
+                        "amount": "$40"
+                    },
+                    {
+                        "name": "ELM CREEK",
+                        "y": 0.0,
+                        "amount": "$40"
+                    },
+                    {
+                        "name": "FORK RIVER",
+                        "y": 0.0,
+                        "amount": "$350"
+                    },
+                    {
+                        "name": "THE PAS",
+                        "y": 0.0,
+                        "amount": "$155"
+                    },
+                    {
+                        "name": "WINNIPEG",
+                        "y": 0.0,
+                        "amount": "$415"
+                    }
                 ]
             },
             {
                 "name": "Nova Scotia, Canada",
                 "id": "Nova Scotia, Canada",
                 "data": [
-                    [
-                        "LIVERPOOL",
-                        0.0
-                    ],
-                    [
-                        "HALIFAX",
-                        0.0
-                    ],
-                    [
-                        "TRURO",
-                        0.0
-                    ],
-                    [
-                        "BEDFORD",
-                        0.01
-                    ],
-                    [
-                        "KENTVILLE",
-                        0.0
-                    ]
+                    {
+                        "name": "LIVERPOOL",
+                        "y": 0.0,
+                        "amount": "$60"
+                    },
+                    {
+                        "name": "HALIFAX",
+                        "y": 0.0,
+                        "amount": "$90"
+                    },
+                    {
+                        "name": "TRURO",
+                        "y": 0.0,
+                        "amount": "$90"
+                    },
+                    {
+                        "name": "BEDFORD",
+                        "y": 0.01,
+                        "amount": "$620"
+                    },
+                    {
+                        "name": "KENTVILLE",
+                        "y": 0.0,
+                        "amount": "$180"
+                    }
                 ]
             },
             {
                 "name": "Colorado, USA",
                 "id": "Colorado, USA",
                 "data": [
-                    [
-                        "Lone Tree",
-                        0.0
-                    ]
+                    {
+                        "name": "Lone Tree",
+                        "y": 0.0,
+                        "amount": "$60"
+                    }
                 ]
             },
             {
                 "name": "California, USA",
                 "id": "California, USA",
                 "data": [
-                    [
-                        "Los Angeles",
-                        0.0
-                    ]
+                    {
+                        "name": "Los Angeles",
+                        "y": 0.0,
+                        "amount": "$30"
+                    }
                 ]
             },
             {
                 "name": "Auckland, New Zealand",
                 "id": "Auckland, New Zealand",
                 "data": [
-                    [
-                        "Manurewa",
-                        0.0
-                    ]
+                    {
+                        "name": "Manurewa",
+                        "y": 0.0,
+                        "amount": "$155"
+                    }
                 ]
             },
             {
                 "name": "New Brunswick, Canada",
                 "id": "New Brunswick, Canada",
                 "data": [
-                    [
-                        "MONCTON",
-                        0.0
-                    ]
+                    {
+                        "name": "MONCTON",
+                        "y": 0.0,
+                        "amount": "$220"
+                    }
                 ]
             },
             {
                 "name": "Quebec, Canada",
                 "id": "Quebec, Canada",
                 "data": [
-                    [
-                        "MONTREAL",
-                        0.0
-                    ],
-                    [
-                        "ROSEMERE",
-                        0.0
-                    ]
+                    {
+                        "name": "MONTREAL",
+                        "y": 0.0,
+                        "amount": "$40"
+                    },
+                    {
+                        "name": "ROSEMERE",
+                        "y": 0.0,
+                        "amount": "$40"
+                    }
                 ]
             },
             {
                 "name": "Jalisco, Mexico",
                 "id": "Jalisco, Mexico",
                 "data": [
-                    [
-                        "Puerto Vallarta",
-                        0.0
-                    ]
+                    {
+                        "name": "Puerto Vallarta",
+                        "y": 0.0,
+                        "amount": "$155"
+                    }
                 ]
             },
             {
                 "name": "Arizona, USA",
                 "id": "Arizona, USA",
                 "data": [
-                    [
-                        "Sun City",
-                        0.0
-                    ]
+                    {
+                        "name": "Sun City",
+                        "y": 0.0,
+                        "amount": "$40"
+                    }
                 ]
             },
             {
                 "name": "Northwest Territories, Canada",
                 "id": "Northwest Territories, Canada",
                 "data": [
-                    [
-                        "YELLOWKNIFE",
-                        0.0
-                    ]
+                    {
+                        "name": "YELLOWKNIFE",
+                        "y": 0.0,
+                        "amount": "$445"
+                    }
                 ]
             }
         ]
